@@ -41,7 +41,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className='bg-yellow-900 mt-24 py-12 px-36'>
+        <section className='bg-primary-color mt-24 py-12 px-36'>
           <div className='w-full text-center font-medium'>
             <h1 className='text-white text-3xl'>Teaching Factory</h1>
             <p className='m-12 text-white font-light'>
@@ -102,7 +102,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className='mt-24 px-4 primary-color py-12'>
+        <section className='mt-24 px-4 bg-primary-color py-12'>
           <Footer></Footer>
         </section>
       </main>
