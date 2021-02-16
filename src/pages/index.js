@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import Header from "src/parts/Header";
 import Footer from "src/parts/Footer";
 export default function Home() {
@@ -9,7 +10,7 @@ export default function Home() {
         <link rel='shortcut icon' href='/images/logo-tefa.png' />
       </Head>
       <main>
-        <section className='pt-10 relative' style={{ height: 654 }}>
+        <section className='pt-10 px-4' style={{ height: 654 }}>
           <div className='container relative mx-auto'>
             <Header></Header>
             <div className='flex justify-between items-center'>
@@ -53,10 +54,55 @@ export default function Home() {
             </p>
           </div>
         </section>
-        <section className='mt-24'>
-          <div className='container mx-auto'></div>
+        <section className='mt-24 px-4'>
+          <div className='flex justify-between items-center px-4'>
+            <div className='w-auto'>
+              <h2 className='text-2xl font-medium text-yellow-800'>
+                Informasi Terbaru
+              </h2>
+            </div>
+            <div className='w-auto'>
+              <Link href='#'>
+                <a className='text-gray-900 hover:underline'>Lihat Lainya</a>
+              </Link>
+            </div>
+          </div>
+          <div className='flex flex-wrap justify-start items-center px-4 mt-6'>
+            <div className='w-1/4 py-6'>
+              <figure>
+                <img
+                  src='/images/informasi1.jpg'
+                  alt='informasi produk terbaru'
+                />
+              </figure>
+              <h4 className='py-4 text-lg text-yellow-800 font-bold'>
+                Produk terbaru dari teaching factory bakery and coffe
+              </h4>
+              <a
+                href=''
+                className='text-c text-blue-800 hover:text-blue-600 hover:underline'>
+                Baca Selengkapnya
+              </a>
+            </div>
+            <div className='w-1/4 py-6'>
+              <figure>
+                <img
+                  src='/images/informasi2.jpg'
+                  alt='informasi produk terbaru'
+                />
+              </figure>
+              <h4 className='py-4 text-lg text-yellow-800 font-bold'>
+                Peraturan terbaru mengenai informasi magang
+              </h4>
+              <a
+                href=''
+                className='text-c text-blue-800 hover:text-blue-600 hover:underline'>
+                Baca Selengkapnya
+              </a>
+            </div>
+          </div>
         </section>
-        <section className='mt-24 bg-yellow-900 py-12'>
+        <section className='mt-24 px-4 bg-yellow-900 py-12'>
           <Footer></Footer>
         </section>
       </main>
