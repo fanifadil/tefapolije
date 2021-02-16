@@ -102,7 +102,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className='mt-24 px-4 bg-yellow-900 py-12'>
+        <section className='mt-24 px-4 primary-color py-12'>
           <Footer></Footer>
         </section>
       </main>

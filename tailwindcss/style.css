@@ -2,3 +2,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-primary-color {
+  background-color: #3a2720;
+}
+
+.text-primary-color {
+  color: #3a2720;
+}
