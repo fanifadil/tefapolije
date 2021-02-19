@@ -4,8 +4,8 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className='container mx-auto'>
-      <div className='flex justify-between'>
-        <div className='w-2/6'>
+      <div className='flex flex-wrap justify-between'>
+        <div className='w-full md:w-2/6 mb-8 md:mb-0'>
           <div className='flex items-center'>
             <img src='/images/logo-tefa.png' alt='' />
             <h6 className='text-white font-medium pl-4'>
@@ -18,7 +18,7 @@ export default function Footer() {
             Telp 7262123 | WA +62817218271
           </p>
         </div>
-        <div className='w-1/6'>
+        <div className='w-full md:w-1/6 mb-8 md:mb-0'>
           <h6 className='text-white font-medium'>Temukan Kami</h6>
           <ul className='mt-4'>
             <li className='mt-2'>
@@ -44,7 +44,7 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div className='w-1/6'>
+        <div className='w-full md:w-1/6 mb-8 md:mb-0'>
           <h6 className='text-white font-medium'>TEFA</h6>
           <ul className='mt-4'>
             <li className='mt-2'>
@@ -84,7 +84,7 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div className='w-1/6'>
+        <div className='w-full md:w-1/6 mb-8 md:mb-0'>
           <h6 className='text-white font-medium'>Link Eksternal</h6>
           <ul className='mt-4'>
             <li className='mt-2'>

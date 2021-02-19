@@ -10,30 +10,32 @@ export default function Home() {
         <link rel='shortcut icon' href='/images/logo-tefa.png' />
       </Head>
       <main>
-        <section className='pt-10 px-4' style={{ height: 654 }}>
+        <section
+          className='pt-10 px-4 min-h-screen md:min-h-0'
+          style={{ height: 654 }}>
           <div className='container relative mx-auto'>
             <Header></Header>
             <div className='flex justify-between items-center'>
-              <div className='w-1/2'>
+              <div className='w-full md:w-1/2 mt-8 md:mt-0'>
                 <h1 className='text-5xl mb-5 font-bold leading-normal'>
                   Teaching Factory
                   <span className='text-yellow-800'> Bakery Coffe </span> &
                   <span className='text-yellow-800'> Fish Canning</span>
                 </h1>
                 <p className='text-gray-500 font-light text-lg mb-8'>
-                  UPT pengolahan & pengemasan produk pangan <br /> Politeknik
-                  Negeri Jember
+                  UPT pengolahan & pengemasan produk pangan{" "}
+                  <br className='hidden md:block' /> Politeknik Negeri Jember
                 </p>
                 <button className='bg-yellow-900 rounded-md hover:bg-yellow-800 transition-all duration-200 focus:outline-none shadow-inner text-white px-6 py-3'>
                   Baca Lebih Lanjut
                 </button>
               </div>
-              <div className='w-1/2 flex justify-end pt-24 pr-16'>
+              <div className='hidden w-1/2 md:flex justify-end pt-24 pr-16'>
                 <div className='relative' style={{ width: 369, height: 440 }}>
                   <div
                     className='absolute border- border-gray-700 border-2 -mt-6 -mr-2 right-0'
                     style={{ width: 369, height: 440 }}></div>
-                  <div className='absolute w-full h-full -mb-8 -ml-8'>
+                  <div className='absolute w-full h-full -mb-8 -ml-8 z-0'>
                     <img src='/images/image-tefa.png' alt='pelatihantefa' />
                   </div>
                 </div>
@@ -41,21 +43,23 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className='bg-primary-color mt-24 py-12 px-36'>
+        <section className='bg-primary-color mt-0 md:mt-24 py-8 md:py-12'>
           <div className='w-full text-center font-medium'>
-            <h1 className='text-white text-3xl'>Teaching Factory</h1>
-            <p className='m-12 text-white font-light'>
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
-              Exercitation veniam consequat sunt nostrud amet.Amet minim mollit
-              non deserunt ullamco est sit aliqua dolor do amet sint. Velit
-              officia consequat duis enim velit mollit. Exercitation veniam
-              consequat sunt nostrud amet.
+            <h1 className='text-white text-2xl md:text-3xl'>
+              Teaching Factory
+            </h1>
+            <p className='mx-8 md:mx-28 mt-12 text-white font-light'>
+              Tefa merupakan keharusan bagi perguruan tinggi vokasi sebagai
+              sarana menguatkan ketrampilan dan kompetensi lulusannya. PT vokasi
+              mempunyai kekuatan atau keunggulan sebagai pembeda dibanding PT
+              Akademik. <br />
+              Salah satu Tefa politeknik negeri jember yaitu tefa Bakery & Coffe
+              yang mengolah dan pengemasan terhadap produk pangan
             </p>
           </div>
         </section>
-        <section className='mt-24 px-4'>
-          <div className='flex justify-between items-center px-4'>
+        <section className='container mt-24 px-4'>
+          <div className='flex justify-between items-center'>
             <div className='w-auto'>
               <h2 className='text-2xl font-medium text-yellow-800'>
                 Informasi Terbaru
@@ -67,38 +71,42 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className='flex flex-wrap justify-start items-center px-4 mt-6'>
-            <div className='w-1/4 py-6'>
-              <figure>
-                <img
-                  src='/images/informasi1.jpg'
-                  alt='informasi produk terbaru'
-                />
-              </figure>
-              <h4 className='py-4 text-lg text-yellow-800 font-bold'>
-                Produk terbaru dari teaching factory bakery and coffe
-              </h4>
-              <a
-                href=''
-                className='text-c text-blue-800 hover:text-blue-600 hover:underline'>
-                Baca Selengkapnya
-              </a>
+          <div className='flex flex-wrap justify-start items-center -mx-4 mt-6'>
+            <div className='w-full md:w-1/4 px-4 mb-6'>
+              <div className='item relative'>
+                <figure>
+                  <img
+                    src='/images/informasi1.png'
+                    alt='informasi produk terbaru'
+                  />
+                </figure>
+                <h4 className='py-4 text-lg text-yellow-800 font-bold'>
+                  Produk terbaru dari teaching factory bakery and coffe
+                </h4>
+                <a
+                  href=''
+                  className='text-c text-blue-800 hover:text-blue-600 hover:underline'>
+                  Baca Selengkapnya
+                </a>
+              </div>
             </div>
-            <div className='w-1/4 py-6'>
-              <figure>
-                <img
-                  src='/images/informasi2.jpg'
-                  alt='informasi produk terbaru'
-                />
-              </figure>
-              <h4 className='py-4 text-lg text-yellow-800 font-bold'>
-                Peraturan terbaru mengenai informasi magang
-              </h4>
-              <a
-                href=''
-                className='text-c text-blue-800 hover:text-blue-600 hover:underline'>
-                Baca Selengkapnya
-              </a>
+            <div className='w-full md:w-1/4 px-4 mb-6'>
+              <div className='item relative'>
+                <figure>
+                  <img
+                    src='/images/informasi2.png'
+                    alt='informasi produk terbaru'
+                  />
+                </figure>
+                <h4 className='py-4 text-lg text-yellow-800 font-bold'>
+                  Peraturan terbaru mengenai informasi magang
+                </h4>
+                <a
+                  href=''
+                  className='text-c text-blue-800 hover:text-blue-600 hover:underline'>
+                  Baca Selengkapnya
+                </a>
+              </div>
             </div>
           </div>
         </section>

@@ -7,6 +7,59 @@
   background-color: #3a2720;
 }
 
-.text-primary-color {
+.thext-primary-color {
   color: #3a2720;
+}
+
+.figure.item-image {
+  position: relative;
+  perspective: 10000px;
+}
+
+.image-wrapper {
+  @apply absolute;
+  @apply inset-0;
+  @apply z-0;
+}
+
+.toggle {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  z-index: 9999;
+}
+.toggle:focus {
+  outline: none;
+}
+.toggle:before,
+.toggle:after {
+  @apply right-0;
+  @apply absolute;
+  @apply transition-all;
+  @apply duration-200;
+  background-color: #3a2720;
+  content: "";
+  height: 3px;
+  transform-origin: center;
+}
+.toggle:before {
+  top: 26%;
+  width: 20px;
+}
+.toggle:after {
+  top: 58%;
+  width: 12px;
+}
+
+.toggle.active:before,
+.toggle.active:after {
+  width: 20px;
+  top: 50%;
+}
+
+.toggle.active:before {
+  transform: translateY(-50%) rotate(-45deg);
+}
+.toggle.active:after {
+  transform: translateY(-50%) rotate(45deg);
 }
