@@ -26,7 +26,7 @@ export default function Home() {
                   UPT pengolahan & pengemasan produk pangan{" "}
                   <br className='hidden md:block' /> Politeknik Negeri Jember
                 </p>
-                <button className='bg-primary rounded-md hover:bg-yellow-800 transition-all duration-200 focus:outline-none shadow-inner text-white px-6 py-3'>
+                <button className='bg-primary-color rounded-md hover:bg-yellow-800 transition-all duration-200 focus:outline-none shadow-inner text-white px-6 py-3'>
                   Baca Lebih Lanjut
                 </button>
               </div>
