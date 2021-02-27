@@ -11,22 +11,22 @@ export default function Home() {
       </Head>
       <main>
         <section
-          className='pt-10 px-4 min-h-screen md:min-h-0'
+          className='header-clipping pt-10 px-4 min-h-screen md:min-h-0'
           style={{ height: 654 }}>
           <div className='container relative mx-auto'>
             <Header></Header>
             <div className='flex justify-between items-center'>
               <div className='w-full md:w-1/2 mt-8 md:mt-0'>
-                <h1 className='text-5xl mb-5 font-bold leading-normal'>
+                <h1 className='text-5xl text-white mb-5 font-bold leading-normal'>
                   Teaching Factory
-                  <span className='text-yellow-800'> Bakery Coffe </span> &
-                  <span className='text-yellow-800'> Fish Canning</span>
+                  <span className='text-yellow-500'> Bakery Coffe </span> &
+                  <span className='text-yellow-500'> Fish Canning</span>
                 </h1>
-                <p className='text-gray-500 font-light text-lg mb-8'>
+                <p className='text-gray-100 font-light text-lg mb-8'>
                   UPT pengolahan & pengemasan produk pangan{" "}
                   <br className='hidden md:block' /> Politeknik Negeri Jember
                 </p>
-                <button className='bg-primary-color rounded-md hover:bg-yellow-800 transition-all duration-200 focus:outline-none shadow-inner text-white px-6 py-3'>
+                <button className='bg-yellow-500 rounded-md hover:bg-yellow-400 transition-all duration-200 focus:outline-none shadow-inner text-white px-6 py-3'>
                   Baca Lebih Lanjut
                 </button>
               </div>
@@ -43,12 +43,12 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className='bg-primary-color mt-0 md:mt-24 py-8 md:py-12'>
-          <div className='w-full text-center font-medium'>
-            <h1 className='text-white text-2xl md:text-3xl'>
+        <section className='bg-gray-100 mt-0 md:mt-24 py-8 md:py-12'>
+          <div className='w-full text-center font-bold'>
+            <h1 className='text-yellow-800 text-2xl md:text-3xl'>
               Teaching Factory
             </h1>
-            <p className='mx-8 md:mx-28 mt-12 text-white font-light'>
+            <p className='mx-8 md:mx-28 mt-12 font-light text-lg'>
               Tefa merupakan keharusan bagi perguruan tinggi vokasi sebagai
               sarana menguatkan ketrampilan dan kompetensi lulusannya. PT vokasi
               mempunyai kekuatan atau keunggulan sebagai pembeda dibanding PT
@@ -58,7 +58,7 @@ export default function Home() {
             </p>
           </div>
         </section>
-        <section className='container mt-24 px-4'>
+        <section className='container mx-auto mt-24 px-4'>
           <div className='flex justify-between items-center'>
             <div className='w-auto'>
               <h2 className='text-2xl font-medium text-yellow-800'>
@@ -73,7 +73,7 @@ export default function Home() {
           </div>
           <div className='flex flex-wrap justify-start items-center -mx-4 mt-6'>
             <div className='w-full md:w-1/4 px-4 mb-6'>
-              <div className='item relative'>
+              <div>
                 <figure>
                   <img
                     src='/images/informasi1.png'
@@ -91,7 +91,7 @@ export default function Home() {
               </div>
             </div>
             <div className='w-full md:w-1/4 px-4 mb-6'>
-              <div className='item relative'>
+              <div>
                 <figure>
                   <img
                     src='/images/informasi2.png'

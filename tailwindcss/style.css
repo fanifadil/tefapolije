@@ -11,15 +11,28 @@
   color: #3a2720;
 }
 
-.figure.item-image {
-  position: relative;
-  perspective: 10000px;
-}
-
 .image-wrapper {
   @apply absolute;
   @apply inset-0;
   @apply z-0;
+  min-width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  height: 660px;
+}
+
+.header-clipping {
+  @apply relative;
+}
+
+.header-clipping:before {
+  @apply w-full;
+  @apply inset-0;
+  @apply absolute;
+  background-color: #3a2720;
+  content: "";
+  height: 648px;
+  clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
 }
 
 .toggle {
@@ -37,7 +50,7 @@
   @apply absolute;
   @apply transition-all;
   @apply duration-200;
-  background-color: #3a2720;
+  @apply bg-yellow-400;
   content: "";
   height: 3px;
   transform-origin: center;
@@ -62,4 +75,11 @@
 }
 .toggle.active:after {
   transform: translateY(-50%) rotate(45deg);
+}
+
+.card {
+  @apply border-gray-300;
+  @apply relative;
+  @apply p-6;
+  @apply border;
 }
