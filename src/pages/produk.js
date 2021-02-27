@@ -16,7 +16,7 @@ export default function produk() {
         <section className='px-4 pt-10 overflow-hidden' style={{ height: 660 }}>
           <img
             className='image-wrapper'
-            alt='Mountains'
+            alt='Produk'
             src='/images/bg-produk.png'
           />
           <div
@@ -41,7 +41,9 @@ export default function produk() {
             </div>
             <div className='w-auto'>
               <Link href='#'>
-                <a className='text-gray-900 hover:underline'>Lihat Lainya</a>
+                <a className='text-gray-900 hover:underline text-sm'>
+                  Lihat Lainya
+                </a>
               </Link>
             </div>
           </div>
@@ -111,7 +113,9 @@ export default function produk() {
             </div>
             <div className='w-auto'>
               <Link href='#'>
-                <a className='text-gray-900 hover:underline'>Lihat Lainya</a>
+                <a className='text-gray-900 hover:underline text-sm'>
+                  Lihat Lainya
+                </a>
               </Link>
             </div>
           </div>

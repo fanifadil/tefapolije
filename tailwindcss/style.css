@@ -83,3 +83,20 @@
   @apply p-6;
   @apply border;
 }
+
+.card:hover {
+  @apply border-yellow-500;
+  @apply border;
+}
+.card:hover button {
+  @apply bg-yellow-500;
+  @apply text-white;
+}
+
+.card svg {
+  @apply fill-gray-400;
+}
+
+.card:hover svg {
+  @apply fill-yellow-500;
+}
