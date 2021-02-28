@@ -6,6 +6,7 @@ import Footer from "src/parts/Footer";
 import IlustrasiProduk from "public/images/ilustrasi-produk.svg";
 import Check from "public/images/check.svg";
 import PaketA from "public/images/paket_A.svg";
+import Pembelajaran from "public/images/sharing.svg";
 
 export default function produk() {
   return (
@@ -36,7 +37,6 @@ export default function produk() {
             <Header></Header>
           </div>
         </section>
-        <section className='container mx-auto mt-12 px-4'></section>
         <section className='container mx-auto mt-12 px-4'>
           <div className='justify-center text-center'>
             <h2 className='text-2xl font-bold text-yellow-800'>
@@ -68,12 +68,12 @@ export default function produk() {
                   <ul className='flex items-center py-2'>
                     <Check></Check>
                     <h2 className='text-medium ml-2'>
-                      Pelatihan 5 Hari Seminggu
+                      Pelatihan 2 Hari Dalam Seminggu
                     </h2>
                   </ul>
                   <ul className='flex items-center py-2'>
                     <Check></Check>
-                    <h2 className='text-medium ml-2'>Pelatihan A</h2>
+                    <h2 className='text-medium ml-2'>Pelatihan B</h2>
                   </ul>
                   <ul className='flex items-center py-2'>
                     <Check></Check>
@@ -89,7 +89,7 @@ export default function produk() {
                   <p className='font-light italic my-4'>
                     Cocok untuk siswa SMK, Pelajar dan Pengusaha
                   </p>
-                  <button className='bg-gray-200 text-black ronded-md px-6 py-3 shadow-inner transition-all duration-200 block w-full'>
+                  <button className='bg-gray-200 text-black ronded-md px-6 py-3 shadow-inner block w-full'>
                     Pilih
                   </button>
                 </div>
@@ -98,9 +98,9 @@ export default function produk() {
             <div className='w-full md:w-2/6 px-4 py-4'>
               <div className='card h-auto relative transition-all duration-200'>
                 <PaketA className='mx-auto block my-4'></PaketA>
-                <h4 className='text-center font-light text-lg'>Paket A</h4>
+                <h4 className='text-center font-light text-lg'>Paket B</h4>
                 <h2 className='text-center font-bold text-xl py-4'>
-                  Rp 600 rb{" "}
+                  Rp 800 rb{" "}
                   <span className='text-sm pl-2 font-light'>/bulan</span>
                 </h2>
                 <div>
@@ -108,12 +108,12 @@ export default function produk() {
                   <ul className='flex items-center py-2'>
                     <Check></Check>
                     <h2 className='text-medium ml-2'>
-                      Pelatihan 5 Hari Seminggu
+                      Pelatihan 3 Hari Seminggu
                     </h2>
                   </ul>
                   <ul className='flex items-center py-2'>
                     <Check></Check>
-                    <h2 className='text-medium ml-2'>Pelatihan A</h2>
+                    <h2 className='text-medium ml-2'>Pelatihan B</h2>
                   </ul>
                   <ul className='flex items-center py-2'>
                     <Check></Check>
@@ -129,7 +129,7 @@ export default function produk() {
                   <p className='font-light italic my-4'>
                     Cocok untuk siswa SMK, Pelajar dan Pengusaha
                   </p>
-                  <button className='bg-gray-200 text-black ronded-md px-6 py-3 shadow-inner transition-all duration-200 block w-full'>
+                  <button className='bg-gray-200 text-black ronded-md px-6 py-3 shadow-inner block w-full'>
                     Pilih
                   </button>
                 </div>
@@ -138,9 +138,9 @@ export default function produk() {
             <div className='w-full md:w-2/6 px-4 py-4'>
               <div className='card h-auto relative transition-all duration-200'>
                 <PaketA className='mx-auto block my-4'></PaketA>
-                <h4 className='text-center font-light text-lg'>Paket A</h4>
+                <h4 className='text-center font-light text-lg'>Paket C</h4>
                 <h2 className='text-center font-bold text-xl py-4'>
-                  Rp 600 rb{" "}
+                  Rp 1 jt{" "}
                   <span className='text-sm pl-2 font-light'>/bulan</span>
                 </h2>
                 <div>
@@ -148,12 +148,12 @@ export default function produk() {
                   <ul className='flex items-center py-2'>
                     <Check></Check>
                     <h2 className='text-medium ml-2'>
-                      Pelatihan 5 Hari Seminggu
+                      Pelatihan 5 Hari Dalamn Seminggu
                     </h2>
                   </ul>
                   <ul className='flex items-center py-2'>
                     <Check></Check>
-                    <h2 className='text-medium ml-2'>Pelatihan A</h2>
+                    <h2 className='text-medium ml-2'>Pelatihan C</h2>
                   </ul>
                   <ul className='flex items-center py-2'>
                     <Check></Check>
@@ -169,33 +169,145 @@ export default function produk() {
                   <p className='font-light italic my-4'>
                     Cocok untuk siswa SMK, Pelajar dan Pengusaha
                   </p>
-                  <button className='bg-gray-200 text-black ronded-md px-6 py-3 shadow-inner transition-all duration-200 block w-full'>
+                  <button className='bg-gray-200 text-black ronded-md px-6 py-3 shadow-inner block w-full'>
                     Pilih
                   </button>
                 </div>
+              </div>
+            </div>
+            <div className='text-center mt-4'>
+              <h4 className='font-light'>
+                Ingin informasi lebih lanjut ?{" "}
+                <span className='text-blue-500 font-medium hover:underline'>
+                  <a href=''>Hubungi Admin</a>
+                </span>
+              </h4>
+            </div>
+          </div>
+        </section>
+        <section className='container mx-auto mt-12 px-4'>
+          <div className='justify-center text-center'>
+            <h2 className='text-2xl font-bold text-yellow-800'>
+              Client Testimony
+            </h2>
+            <p className='mx-8 md:mx-28 mt-12 font-light text-lg'>
+              Beberapa client kami yang sudah melakukan pelatihan di TEFA Bakery
+              And Coffe Politeknik Negeri Jember
+            </p>
+          </div>
+          <div className='flex flex-wrap justify-center items-center mt-6'>
+            <div className='w-full md:w-2/6 px-4 py-4'>
+              <div className='card h-auto relative text-center transition-all duration-200'>
+                <img
+                  src='/images/testimoni1.png'
+                  alt='Testimoni'
+                  className='block mx-auto'
+                />
+                <h4 className='text-yellow-500 font-medium mt-4'>
+                  Kathryn Murphy
+                </h4>
+                <h5 className='text-gray-500 font-light italic text-sm mt-2 mb-4'>
+                  Siswa SMK
+                </h5>
+                <p className='font-light'>
+                  Pelatihan Dilakukan Oleh Mentor Profesioanal
+                </p>
+              </div>
+            </div>
+            <div className='w-full md:w-2/6 px-4 py-4'>
+              <div className='card h-auto relative text-center transition-all duration-200'>
+                <img
+                  src='/images/testimoni2.png'
+                  alt='Testimoni'
+                  className='block mx-auto'
+                />
+                <h4 className='text-yellow-500 font-medium mt-4'>
+                  Kathryn Murphy
+                </h4>
+                <h5 className='text-gray-500 font-light italic text-sm mt-2 mb-4'>
+                  Mahasiswa
+                </h5>
+                <p className='font-light'>
+                  Pelatihan Nyaman dan Sangan Mudah Dimengerti
+                </p>
+              </div>
+            </div>
+            <div className='w-full md:w-2/6 px-4 py-4'>
+              <div className='card h-auto relative text-center transition-all duration-200'>
+                <img
+                  src='/images/testimoni3.png'
+                  alt='Testimoni'
+                  className='block mx-auto'
+                />
+                <h4 className='text-yellow-500 font-medium mt-4'>
+                  Kathryn Murphy
+                </h4>
+                <h5 className='text-gray-500 font-light italic text-sm mt-2 mb-4'>
+                  Pengusaha
+                </h5>
+                <p className='font-light'>
+                  Penyampaian Materi dalam Pelatihan Dilaksanakan dengan Sangat
+                  Baik
+                </p>
               </div>
             </div>
           </div>
         </section>
-        <section className='container mt-12 px-4 mx-auto'>
-          <div className='flex flex-wrap items-center justify-center'>
-            <div className='w-full md:w-1/2'>
-              <IlustrasiProduk />
-            </div>
-            <div className='w-full md:w-1/2'>
-              <div className='text-center px-0 md:px-6'>
-                <h2 className='text-2xl text-primary-color font-bold'>
-                  Ingin belajar dan menghasilkan produk seperti di atas ?
-                </h2>
-                <p className='font-light py-6'>
-                  Ikuti pelatihan untuk mendapatkan pengalaman dan keahlian
-                  berwirausaha yang baik dan benar
+        <section className='container mt-12 px-4 mx-auto md:flex items-center'>
+          <div className='w-full md:w-2/6'>
+            <h2 className='font-bold text-yellow-500 text-4xl leading-normal leading'>
+              Kenapa Harus Tefa Politeknik Negeri Jember ?
+            </h2>
+          </div>
+          <div className='w-full md:w-2/6 '>
+            <div className='item flex my-6'>
+              <Pembelajaran></Pembelajaran>
+              <div className='w-5/6 px-2'>
+                <h4 className='font-bold text-base mb-2'>
+                  Pembelajaran Yang Nyaman
+                </h4>
+                <p className='font-light text-sm'>
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.{" "}
                 </p>
-                <Link href='/pelatihan'>
-                  <button className='bg-yellow-600 hover:bg-yellow-500 text-white px-6 py-4 transition-all duration-200'>
-                    Ikuti Pelatihan
-                  </button>
-                </Link>
+              </div>
+            </div>
+            <div className='item flex my-6'>
+              <Pembelajaran></Pembelajaran>
+              <div className='w-5/6 px-2'>
+                <h4 className='font-bold text-base mb-2'>
+                  Pembelajaran Yang Nyaman
+                </h4>
+                <p className='font-light text-sm'>
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.{" "}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className='w-full md:w-2/6 '>
+            <div className='item flex my-6'>
+              <Pembelajaran></Pembelajaran>
+              <div className='w-5/6 px-2'>
+                <h4 className='font-bold text-base mb-2'>
+                  Pembelajaran Yang Nyaman
+                </h4>
+                <p className='font-light text-sm'>
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.{" "}
+                </p>
+              </div>
+            </div>
+            <div className='item flex my-6'>
+              <Pembelajaran></Pembelajaran>
+              <div className='w-5/6 px-2'>
+                <h4 className='font-bold text-base mb-2'>
+                  Pembelajaran Yang Nyaman
+                </h4>
+                <p className='font-light text-sm'>
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.{" "}
+                </p>
               </div>
             </div>
           </div>

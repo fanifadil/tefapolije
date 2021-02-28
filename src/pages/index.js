@@ -3,6 +3,13 @@ import Link from "next/link";
 import Header from "src/parts/Header";
 import Footer from "src/parts/Footer";
 export default function Home() {
+  function showDetail() {
+    document.getElementById("detail").scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "nearest",
+    });
+  }
   return (
     <>
       <Head>
@@ -26,7 +33,9 @@ export default function Home() {
                   UPT pengolahan & pengemasan produk pangan{" "}
                   <br className='hidden md:block' /> Politeknik Negeri Jember
                 </p>
-                <button className='bg-yellow-500 rounded-md hover:bg-yellow-400 transition-all duration-200 focus:outline-none shadow-inner text-white px-6 py-3'>
+                <button
+                  onClick={showDetail}
+                  className='bg-yellow-500 rounded-md hover:bg-yellow-400 transition-all duration-200 focus:outline-none shadow-inner text-white px-6 py-3'>
                   Baca Lebih Lanjut
                 </button>
               </div>
@@ -43,7 +52,9 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className='bg-gray-100 mt-0 md:mt-24 py-8 md:py-12'>
+        <section
+          id='detail'
+          className='bg-yellow-50 mt-0 md:mt-24 py-8 md:py-12'>
           <div className='w-full text-center font-bold'>
             <h1 className='text-yellow-800 text-2xl md:text-3xl'>
               Teaching Factory

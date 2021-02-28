@@ -150,7 +150,7 @@ export default function produk() {
             </div>
           </div>
         </section>
-        <section className='container mx-auto mt-12 px-4'>
+        <section className=' bg-red-50 mx-auto mt-12 px-4'>
           <div className='flex justify-center text-center'>
             <h2 className='text-2xl font-medium text-yellow-800'>
               Pesan dan Coba Produk di Atas ? <br /> Temukan Kami Di
@@ -199,7 +199,7 @@ export default function produk() {
                   berwirausaha yang baik dan benar
                 </p>
                 <Link href='/pelatihan'>
-                  <button className='bg-yellow-600 hover:bg-yellow-500 text-white px-6 py-4 transition-all duration-200'>
+                  <button className='bg-yellow-600 hover:bg-yellow-500 rounded-md text-white px-6 py-4 transition-all duration-200'>
                     Ikuti Pelatihan
                   </button>
                 </Link>
