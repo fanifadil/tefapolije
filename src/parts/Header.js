@@ -24,65 +24,65 @@ export default function Header() {
           "transition-all duration-200 items-center fixed inset-0 bg-white pt-24 md:pt-0 md:bg-transparent md:relative md:flex md:opacity-100 md:visible",
           ToggleMenu ? "opacity-100 visible z-0" : "opacity-0 invisible",
         ].join(" ")}>
-        <li>
+        <li className='px-6 flex md:inline'>
           <Link href='/'>
             <a
               className={[
-                "text-lg px-6 mt-6 ",
+                "text-lg ",
                 ToggleMenu
-                  ? "text-black font-medium hover:text-gray-500 "
+                  ? "text-black font-medium hover:text-gray-500 my-2"
                   : "text-white font-medium hover:text-yellow-500 ",
               ].join("")}>
               Home
             </a>
           </Link>
         </li>
-        <li>
+        <li className='px-6 flex md:inline'>
           <Link href='/produk'>
             <a
               className={[
-                "text-lg px-6 mt-6 ",
+                "text-lg ",
                 ToggleMenu
-                  ? "text-black font-medium hover:text-gray-500 "
+                  ? "text-black font-medium hover:text-gray-500 my-2"
                   : "text-white font-medium hover:text-yellow-500 ",
               ].join("")}>
               Produk
             </a>
           </Link>
         </li>
-        <li>
+        <li className='px-6 flex md:inline'>
           <Link href='/pelatihan'>
             <a
               className={[
-                "text-lg px-6 mt-6 ",
+                "text-lg ",
                 ToggleMenu
-                  ? "text-black font-medium hover:text-gray-500 "
+                  ? "text-black font-medium hover:text-gray-500 my-2"
                   : "text-white font-medium hover:text-yellow-500 ",
               ].join("")}>
               Pelatihan
             </a>
           </Link>
         </li>
-        <li>
+        <li className='px-6 flex md:inline'>
           <Link href='/tentangkami'>
             <a
               className={[
-                "text-lg px-6 mt-6 ",
+                "text-lg ",
                 ToggleMenu
-                  ? "text-black font-medium hover:text-gray-500 "
+                  ? "text-black font-medium hover:text-gray-500 my-2"
                   : "text-white font-medium hover:text-yellow-500 ",
               ].join("")}>
               Tentang Kami
             </a>
           </Link>
         </li>
-        <li>
+        <li className='px-6 flex md:inline'>
           <Link href='kontak'>
             <a
               className={[
-                "text-lg px-6 mt-6 ",
+                "text-lg ",
                 ToggleMenu
-                  ? "text-black font-medium hover:text-gray-500 "
+                  ? "text-black font-medium hover:text-gray-500 my-2"
                   : "text-white font-medium hover:text-yellow-500 ",
               ].join("")}>
               Kontak

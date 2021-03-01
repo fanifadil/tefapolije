@@ -55,11 +55,11 @@ export default function Home() {
         <section
           id='detail'
           className='bg-yellow-50 mt-0 md:mt-24 py-8 md:py-12'>
-          <div className='w-full text-center font-bold'>
-            <h1 className='text-yellow-800 text-2xl md:text-3xl'>
+          <div className='w-full text-center'>
+            <h1 className='text-yellow-500 text-2xl md:text-3xl font-bold'>
               Teaching Factory
             </h1>
-            <p className='mx-8 md:mx-28 mt-12 font-light text-lg'>
+            <p className='mx-8 md:mx-28 mt-6 font-light md:font-medium text-lg'>
               Tefa merupakan keharusan bagi perguruan tinggi vokasi sebagai
               sarana menguatkan ketrampilan dan kompetensi lulusannya. PT vokasi
               mempunyai kekuatan atau keunggulan sebagai pembeda dibanding PT
@@ -69,15 +69,15 @@ export default function Home() {
             </p>
           </div>
         </section>
-        <section className='container mx-auto mt-24 px-4'>
+        <section className='container mx-auto mt-12 md:mt-24 px-4'>
           <div className='flex justify-between items-center'>
             <div className='w-auto'>
-              <h2 className='text-2xl font-medium text-yellow-800'>
+              <h2 className='text-yellow-500 text-2xl md:text-3xl font-bold'>
                 Informasi Terbaru
               </h2>
             </div>
             <div className='w-auto'>
-              <Link href='#'>
+              <Link href=''>
                 <a className='text-gray-900 hover:underline'>Lihat Lainya</a>
               </Link>
             </div>
@@ -91,7 +91,7 @@ export default function Home() {
                     alt='informasi produk terbaru'
                   />
                 </figure>
-                <h4 className='py-4 text-lg text-yellow-800 font-bold'>
+                <h4 className='py-4 text-lg font-bold'>
                   Produk terbaru dari teaching factory bakery and coffe
                 </h4>
                 <a
@@ -109,7 +109,7 @@ export default function Home() {
                     alt='informasi produk terbaru'
                   />
                 </figure>
-                <h4 className='py-4 text-lg text-yellow-800 font-bold'>
+                <h4 className='py-4 text-lg font-bold'>
                   Peraturan terbaru mengenai informasi magang
                 </h4>
                 <a
@@ -121,7 +121,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className='mt-24 px-4 bg-primary-color py-12'>
+        <section className='mt-12 md:mt-24 px-4 bg-primary-color py-12'>
           <Footer></Footer>
         </section>
       </main>

@@ -37,27 +37,27 @@ export default function produk() {
             <Header></Header>
           </div>
         </section>
-        <section className='container mx-auto mt-12 px-4'>
+        <section className='container mx-auto mt-6 px-4 py-8 md:py-12'>
           <div className='justify-center text-center'>
-            <h2 className='text-2xl font-bold text-yellow-800'>
+            <h2 className='text-yellow-500 font-bold text-2xl md:text-3xl'>
               Paket Pelatihan
             </h2>
-            <p className='mx-8 md:mx-28 mt-12 font-light text-lg'>
+            <p className='mx-8 md:mx-28 mt-4 font-light text-lg'>
               TEFA Coffe and Bakery Politeknik Negeri Jember saat ini membuka
               pelatihan kepada siswa magang atau kepada siapa saja yang ingin
               belajar membuat suatu produk yang telah dihasilkan oleh Tefa
               Bakery and Coffe saat ini. Pelaksanaan pelatihan dilakukan oleh
               mentor yang profesional <br />
-              <span className='font-medium mt-6'>
+              <span className='font-medium'>
                 Tunggu apalagi, pilih paket dan ikuti pelatihan sekarang juga
                 !!!
               </span>{" "}
             </p>
           </div>
-          <div className='flex flex-wrap justify-center items-center mt-6'>
+          <div className='flex flex-wrap justify-center items-center mt-4'>
             <div className='w-full md:w-2/6 px-4 py-4'>
-              <div className='card h-auto relative transition-all duration-200'>
-                <PaketA className='mx-auto block my-4'></PaketA>
+              <div className='card bg-indigo-50 border-indigo-500 h-auto relative transition-all duration-200'>
+                <PaketA className='mx-auto block my-4 fill-indigo-500'></PaketA>
                 <h4 className='text-center font-light text-lg'>Paket A</h4>
                 <h2 className='text-center font-bold text-xl py-4'>
                   Rp 600 rb{" "}
@@ -89,15 +89,15 @@ export default function produk() {
                   <p className='font-light italic my-4'>
                     Cocok untuk siswa SMK, Pelajar dan Pengusaha
                   </p>
-                  <button className='bg-gray-200 text-black ronded-md px-6 py-3 shadow-inner block w-full'>
+                  <button className='border-gray-400 border-2 rounded-md text-black ronded-md px-6 py-3 block w-full'>
                     Pilih
                   </button>
                 </div>
               </div>
             </div>
             <div className='w-full md:w-2/6 px-4 py-4'>
-              <div className='card h-auto relative transition-all duration-200'>
-                <PaketA className='mx-auto block my-4'></PaketA>
+              <div className='card bg-green-50 border-green-500 h-auto relative transition-all duration-200'>
+                <PaketA className='mx-auto block my-4 fill-green-500'></PaketA>
                 <h4 className='text-center font-light text-lg'>Paket B</h4>
                 <h2 className='text-center font-bold text-xl py-4'>
                   Rp 800 rb{" "}
@@ -129,15 +129,15 @@ export default function produk() {
                   <p className='font-light italic my-4'>
                     Cocok untuk siswa SMK, Pelajar dan Pengusaha
                   </p>
-                  <button className='bg-gray-200 text-black ronded-md px-6 py-3 shadow-inner block w-full'>
+                  <button className='border-gray-400 border-2 rounded-md text-black ronded-md px-6 py-3 block w-full'>
                     Pilih
                   </button>
                 </div>
               </div>
             </div>
             <div className='w-full md:w-2/6 px-4 py-4'>
-              <div className='card h-auto relative transition-all duration-200'>
-                <PaketA className='mx-auto block my-4'></PaketA>
+              <div className='card bg-purple-50 border-purple-500 h-auto relative transition-all duration-200'>
+                <PaketA className='mx-auto block my-4 fill-purple-500'></PaketA>
                 <h4 className='text-center font-light text-lg'>Paket C</h4>
                 <h2 className='text-center font-bold text-xl py-4'>
                   Rp 1 jt{" "}
@@ -169,7 +169,7 @@ export default function produk() {
                   <p className='font-light italic my-4'>
                     Cocok untuk siswa SMK, Pelajar dan Pengusaha
                   </p>
-                  <button className='bg-gray-200 text-black ronded-md px-6 py-3 shadow-inner block w-full'>
+                  <button className='border-gray-400 border-2 rounded-md text-black ronded-md px-6 py-3 block w-full'>
                     Pilih
                   </button>
                 </div>
@@ -185,19 +185,19 @@ export default function produk() {
             </div>
           </div>
         </section>
-        <section className='container mx-auto mt-12 px-4'>
+        <section className='container mx-auto mt-6 px-4 py-8 md:py-12'>
           <div className='justify-center text-center'>
-            <h2 className='text-2xl font-bold text-yellow-800'>
+            <h2 className='text-yellow-500 font-bold text-2xl md:text-3xl'>
               Client Testimony
             </h2>
-            <p className='mx-8 md:mx-28 mt-12 font-light text-lg'>
+            <p className='mx-8 md:mx-28 mt-4 font-light text-lg'>
               Beberapa client kami yang sudah melakukan pelatihan di TEFA Bakery
               And Coffe Politeknik Negeri Jember
             </p>
           </div>
-          <div className='flex flex-wrap justify-center items-center mt-6'>
+          <div className='flex flex-wrap justify-center items-center mt-4'>
             <div className='w-full md:w-2/6 px-4 py-4'>
-              <div className='card h-auto relative text-center transition-all duration-200'>
+              <div className='p-6 h-auto relative text-center transition-all duration-200'>
                 <img
                   src='/images/testimoni1.png'
                   alt='Testimoni'
@@ -215,7 +215,7 @@ export default function produk() {
               </div>
             </div>
             <div className='w-full md:w-2/6 px-4 py-4'>
-              <div className='card h-auto relative text-center transition-all duration-200'>
+              <div className='p-6 h-auto relative text-center transition-all duration-200'>
                 <img
                   src='/images/testimoni2.png'
                   alt='Testimoni'
@@ -233,7 +233,7 @@ export default function produk() {
               </div>
             </div>
             <div className='w-full md:w-2/6 px-4 py-4'>
-              <div className='card h-auto relative text-center transition-all duration-200'>
+              <div className='p-6 h-auto relative text-center transition-all duration-200'>
                 <img
                   src='/images/testimoni3.png'
                   alt='Testimoni'
@@ -253,7 +253,7 @@ export default function produk() {
             </div>
           </div>
         </section>
-        <section className='container mt-12 px-4 mx-auto md:flex items-center'>
+        <section className='container mt-6 px-4 mx-auto md:flex items-center py-8 md:py-12'>
           <div className='w-full md:w-2/6'>
             <h2 className='font-bold text-yellow-500 text-4xl leading-normal leading'>
               Kenapa Harus Tefa Politeknik Negeri Jember ?
@@ -272,7 +272,7 @@ export default function produk() {
                 </p>
               </div>
             </div>
-            <div className='item flex my-6'>
+            <div className='item flex mt-12'>
               <Pembelajaran></Pembelajaran>
               <div className='w-5/6 px-2'>
                 <h4 className='font-bold text-base mb-2'>
@@ -298,7 +298,7 @@ export default function produk() {
                 </p>
               </div>
             </div>
-            <div className='item flex my-6'>
+            <div className='item flex mt-12'>
               <Pembelajaran></Pembelajaran>
               <div className='w-5/6 px-2'>
                 <h4 className='font-bold text-base mb-2'>
@@ -312,7 +312,7 @@ export default function produk() {
             </div>
           </div>
         </section>
-        <section className='mt-24 px-4 bg-primary-color py-12'>
+        <section className='mt-12 px-4 bg-primary-color py-12'>
           <Footer></Footer>
         </section>
       </main>

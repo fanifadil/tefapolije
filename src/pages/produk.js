@@ -34,10 +34,12 @@ export default function produk() {
             <Header></Header>
           </div>
         </section>
-        <section className='container mx-auto mt-24 px-4'>
+        <section className='container mx-auto mt-6 px-4 py-8 md:py-12'>
           <div className='flex justify-between items-center'>
             <div className='w-auto'>
-              <h2 className='text-2xl font-medium text-yellow-800'>Bakery</h2>
+              <h2 className='text-yellow-500 font-bold text-2xl md:text-3xl'>
+                Bakery
+              </h2>
             </div>
             <div className='w-auto'>
               <Link href='#'>
@@ -106,10 +108,12 @@ export default function produk() {
             </div>
           </div>
         </section>
-        <section className='container mx-auto mt-12 px-4'>
+        <section className='container mx-auto mt-6 px-4 py-8 md:py-12'>
           <div className='flex justify-between items-center'>
             <div className='w-auto'>
-              <h2 className='text-2xl font-medium text-yellow-800'>Coffe</h2>
+              <h2 className='text-yellow-500 font-bold text-2xl md:text-3xl'>
+                Coffe
+              </h2>
             </div>
             <div className='w-auto'>
               <Link href='#'>
@@ -150,9 +154,9 @@ export default function produk() {
             </div>
           </div>
         </section>
-        <section className=' bg-red-50 mx-auto mt-12 px-4'>
+        <section className='bg-yellow-50 mx-auto mt-6 px-4 py-8 md:py-12'>
           <div className='flex justify-center text-center'>
-            <h2 className='text-2xl font-medium text-yellow-800'>
+            <h2 className='text-yellow-500 font-bold text-2xl md:text-3xl'>
               Pesan dan Coba Produk di Atas ? <br /> Temukan Kami Di
             </h2>
           </div>
@@ -165,9 +169,12 @@ export default function produk() {
                   alt='logo-maps'
                 />
                 <h4 className='font-light text-2xl'>Lokasi</h4>
-                <p className='font-bold mt-4'>
+                <p className='font-bold my-4'>
                   Jl. Mastrip Kotak Pos 164 - Pintu Belakang POLIJE. Jember –
                   Jawa Timur
+                </p>
+                <p className='text-gray-500 font-light italic'>
+                  Buka Mulai 08.00 - 17.00 WIB
                 </p>
               </div>
             </div>
@@ -179,12 +186,15 @@ export default function produk() {
                   alt='logo-gojek'
                 />
                 <h4 className='font-light text-2xl'>Via Gojek</h4>
-                <p className='font-bold mt-4'>TefaSipPolije</p>
+                <p className='font-bold my-4'>TefaSipPolije</p>
+                <p className='text-gray-500 font-light italic'>
+                  Buka Mulai 08.00 - 17.00 WIB
+                </p>
               </div>
             </div>
           </div>
         </section>
-        <section className='container mt-12 px-4 mx-auto'>
+        <section className='container mt-6 px-4 mx-auto py-8 md:py-12'>
           <div className='flex flex-wrap items-center justify-center'>
             <div className='w-full md:w-1/2'>
               <IlustrasiProduk />
@@ -199,7 +209,7 @@ export default function produk() {
                   berwirausaha yang baik dan benar
                 </p>
                 <Link href='/pelatihan'>
-                  <button className='bg-yellow-600 hover:bg-yellow-500 rounded-md text-white px-6 py-4 transition-all duration-200'>
+                  <button className='bg-yellow-500 rounded-md hover:bg-yellow-400 transition-all duration-200 focus:outline-none shadow-inner text-white px-6 py-3'>
                     Ikuti Pelatihan
                   </button>
                 </Link>
@@ -207,7 +217,7 @@ export default function produk() {
             </div>
           </div>
         </section>
-        <section className='mt-24 px-4 bg-primary-color py-12'>
+        <section className='mt-12 px-4 bg-primary-color py-12'>
           <Footer></Footer>
         </section>
       </main>
