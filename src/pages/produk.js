@@ -162,7 +162,7 @@ export default function produk() {
           </div>
           <div className='flex flex-wrap justify-center items-center mt-6'>
             <div className='w-full md:w-2/6 px-4 py-4'>
-              <div className='card h-72 relative text-center transition-all duration-200'>
+              <div className='card h-auto md:h-72 relative text-center transition-all duration-200'>
                 <img
                   className='mx-auto block py-2'
                   src='/images/maps.png'
