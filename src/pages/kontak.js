@@ -19,7 +19,7 @@ export default function kontak() {
           <div className='container relative mx-auto z-50'>
             <Header></Header>
           </div>
-          <div className='md:flex justify-between items-center px-4'>
+          <div className='md:flex justify-between items-center'>
             <div className='w-full md:w-1/2 mt-12 md:mt-0'>
               <h3 className='text-lg text-yellow-500 font-bold'>Kontak</h3>
               <h1 className='text-3xl md:text-5xl text-white font-bold leading-relaxed md:leading-normal mt-6 md:mt-0 mb-4 md:mb-0'>

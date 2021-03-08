@@ -27,7 +27,7 @@ export default function produk() {
           <div className='absolute inset-0 object-fill z-0 w-full flex justify-center items-center'>
             <div className='text-center'>
               <h3 className='text-lg text-yellow-500 font-bold'>Pelatihan</h3>
-              <h2 className='text-3xl md:text-5xl text-white font-semibold mt-4 md:mt-8'>
+              <h2 className='text-3xl md:text-5xl text-white font-semibold mt-4 md:mt-8 px-4'>
                 Pilih Paket Pelatihan Anda Sekarang Juga
               </h2>
               <p className='mx-4 md:mx-28 py-4 font-light font-white text-md md:text-lg text-white'>
