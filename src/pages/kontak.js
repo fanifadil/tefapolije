@@ -83,7 +83,7 @@ export default function kontak() {
             </div>
           </div>
         </section>
-        <section className='-mb-24'>
+        <section className='-mt-12 md:-mb-24'>
           <iframe
             className='w-full'
             src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.4699846917947!2d113.7248563145127!3d-8.155311583954123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd69541b5529c1d%3A0x8a9bf208ba6d4d5e!2sTefa%20CAFE!5e0!3m2!1sen!2sid!4v1615084852039!5m2!1sen!2sid'
