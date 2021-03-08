@@ -28,23 +28,16 @@ export default function tentangkami() {
               <h2 className='text-3xl md:text-5xl text-white font-semibold mt-4 md:mt-8'>
                 Teaching Factory Bakery & Coffe
               </h2>
+              <p className='mx-8 md:mx-28 py-4 font-light font-white text-md md:text-lg text-white'>
+                TEFA Coffe and Bakery merupakan salah satu TEFA dari 34 TEFA
+                yang ada di Politeknik Negeri Jember. Tefa Bakery & Coffe
+                berfokus pada pengolahan dan pengemasan produk makanan
+                <br />
+              </p>
             </div>
           </div>
           <div className='container relative mx-auto z-50'>
             <Header></Header>
-          </div>
-        </section>
-        <section className='container mx-auto mt-6 px-4 py-8 md:py-12'>
-          <div className='justify-center text-center'>
-            <h2 className='text-yellow-500 font-bold text-2xl md:text-3xl'>
-              Tentang Tefa Bakery & Coffe Politeknik Negeri Jember
-            </h2>
-            <p className='mx-8 md:mx-28 mt-4 font-light text-lg'>
-              TEFA Coffe and Bakery merupakan salah satu TEFA dari 34 TEFA yang
-              ada di Politeknik Negeri Jember. Tefa Bakery & Coffe berfokus pada
-              pengolahan dan pengemasan produk makanan
-              <br />
-            </p>
           </div>
         </section>
         <section className='container mx-auto mt-6 px-4 py-8 md:py-12'>

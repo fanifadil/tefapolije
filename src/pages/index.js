@@ -24,6 +24,7 @@ export default function Home() {
             <Header></Header>
             <div className='flex justify-between items-center'>
               <div className='w-full md:w-1/2 mt-8 md:mt-0'>
+                <h3 className='text-lg text-yellow-500 font-bold'>Home</h3>
                 <h1 className='text-5xl text-white mb-5 font-bold leading-normal'>
                   Teaching Factory
                   <span className='text-yellow-500'> Bakery Coffe </span> &

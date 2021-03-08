@@ -9,8 +9,8 @@ export default function Header() {
         "flex justify-between items-center",
         ToggleMenu ? "fixed w-full -mx-4 px-4" : "",
       ].join(" ")}>
-      <div style={{ height: 44, zIndex: 50 }}>
-        <img src='/images/logo-tefa.png' alt='tefa' />
+      <div style={{ height: 60, zIndex: 50 }}>
+        <img src='/images/logo-tefa.png' style={{ height: 60 }} alt='tefa' />
       </div>
       <div className='flex md:hidden'>
         <button
@@ -21,7 +21,7 @@ export default function Header() {
       </div>
       <ul
         className={[
-          "transition-all duration-200 items-center fixed inset-0 bg-white pt-24 md:pt-0 md:bg-transparent md:relative md:flex md:opacity-100 md:visible",
+          "transition-all duration-200 items-center fixed inset-0 bg-white pt-28 md:pt-0 md:bg-transparent md:relative md:flex md:opacity-100 md:visible",
           ToggleMenu ? "opacity-100 visible z-0" : "opacity-0 invisible",
         ].join(" ")}>
         <li className='px-6 flex md:inline'>

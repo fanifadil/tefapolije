@@ -28,6 +28,13 @@ export default function produk() {
               <h2 className='text-3xl md:text-5xl text-white font-semibold mt-4 md:mt-8'>
                 Nikmati produk yang sudah dihasilkan
               </h2>
+              <p className='mx-4 md:mx-28 py-4 font-light font-white text-md md:text-lg text-white'>
+                TEFA Coffe and Bakery Politeknik Negeri Jember telah
+                menghasilkan beberapa produk berupa aneka roti, aneka kopi,
+                aneka kue dan kami juga menerima kue pesanan untuk ulang tahun,
+                acara keluarga dan lain lain
+                <br />
+              </p>
             </div>
           </div>
           <div className='container relative mx-auto z-50'>

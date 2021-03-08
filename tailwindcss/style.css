@@ -130,3 +130,15 @@ header li:hover:after {
 .item svg {
   @apply fill-yellow-500;
 }
+
+.card-socialmedia {
+  @apply border;
+  @apply border-yellow-500;
+  @apply p-4;
+}
+
+.card-socialmedia:hover {
+  @apply border;
+  @apply bg-yellow-100;
+  @apply p-4;
+}

@@ -3,7 +3,6 @@ import Head from "next/head";
 import Link from "next/link";
 import Header from "src/parts/Header";
 import Footer from "src/parts/Footer";
-import IlustrasiProduk from "public/images/ilustrasi-produk.svg";
 import Check from "public/images/check.svg";
 import PaketA from "public/images/paket_A.svg";
 import Pembelajaran from "public/images/sharing.svg";
@@ -31,6 +30,13 @@ export default function produk() {
               <h2 className='text-3xl md:text-5xl text-white font-semibold mt-4 md:mt-8'>
                 Pilih Paket Pelatihan Anda Sekarang Juga
               </h2>
+              <p className='mx-4 md:mx-28 py-4 font-light font-white text-md md:text-lg text-white'>
+                TEFA Coffe and Bakery Politeknik Negeri Jember saat ini membuka
+                pelatihan kepada siswa magang atau kepada siapa saja yang ingin
+                belajar membuat suatu produk yang telah dihasilkan oleh Tefa
+                Bakery and Coffe saat ini. Pelaksanaan pelatihan dilakukan oleh
+                mentor yang profesional <br />
+              </p>
             </div>
           </div>
           <div className='container relative mx-auto z-50'>
@@ -42,16 +48,8 @@ export default function produk() {
             <h2 className='text-yellow-500 font-bold text-2xl md:text-3xl'>
               Paket Pelatihan
             </h2>
-            <p className='mx-8 md:mx-28 mt-4 font-light text-lg'>
-              TEFA Coffe and Bakery Politeknik Negeri Jember saat ini membuka
-              pelatihan kepada siswa magang atau kepada siapa saja yang ingin
-              belajar membuat suatu produk yang telah dihasilkan oleh Tefa
-              Bakery and Coffe saat ini. Pelaksanaan pelatihan dilakukan oleh
-              mentor yang profesional <br />
-              <span className='font-medium'>
-                Tunggu apalagi, pilih paket dan ikuti pelatihan sekarang juga
-                !!!
-              </span>{" "}
+            <p className='mx-4 md:mx-28 mt-4 font-light text-lg'>
+              Tunggu apalagi, pilih paket dan ikuti pelatihan sekarang juga !!!
             </p>
           </div>
           <div className='flex flex-wrap justify-center items-center mt-4'>
@@ -190,7 +188,7 @@ export default function produk() {
             <h2 className='text-yellow-500 font-bold text-2xl md:text-3xl'>
               Client Testimony
             </h2>
-            <p className='mx-8 md:mx-28 mt-4 font-light text-lg'>
+            <p className='mx-4 md:mx-28 mt-4 font-light text-lg'>
               Beberapa client kami yang sudah melakukan pelatihan di TEFA Bakery
               And Coffe Politeknik Negeri Jember
             </p>
@@ -253,7 +251,7 @@ export default function produk() {
             </div>
           </div>
         </section>
-        <section className='container mt-6 px-4 mx-auto md:flex items-center py-8 md:py-12'>
+        <section className='container px-4 mx-auto md:flex items-center py-8 md:py-12'>
           <div className='w-full md:w-2/6'>
             <h2 className='font-bold text-yellow-500 text-4xl leading-normal leading'>
               Kenapa Harus Tefa Politeknik Negeri Jember ?
@@ -285,7 +283,7 @@ export default function produk() {
               </div>
             </div>
           </div>
-          <div className='w-full md:w-2/6 '>
+          <div className='w-full md:w-2/6 mt-12 md:mt-0'>
             <div className='item flex my-6'>
               <Pembelajaran></Pembelajaran>
               <div className='w-5/6 px-2'>
