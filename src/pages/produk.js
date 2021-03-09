@@ -49,8 +49,8 @@ export default function produk() {
               </h2>
             </div>
             <div className='w-auto'>
-              <Link href=''>
-                <a className='text-gray-900 text-sm'>Lihat Lainya</a>
+              <Link href='#'>
+                <a className='text-gray-900 text-sm hover:underline'>Lihat Lainya</a>
               </Link>
             </div>
           </div>
@@ -111,8 +111,8 @@ export default function produk() {
               </h2>
             </div>
             <div className='w-auto'>
-              <Link href=''>
-                <a className='text-gray-900 text-sm'>Lihat Lainya</a>
+              <Link href='#'>
+                <a className='text-gray-900 text-sm hover:underline'>Lihat Lainya</a>
               </Link>
             </div>
           </div>
