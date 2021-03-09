@@ -45,123 +45,140 @@ export default function produk() {
           <div className='flex justify-between items-center'>
             <div className='w-auto'>
               <h2 className='text-yellow-500 font-bold text-2xl md:text-3xl'>
-                Bakery
+                Aneka Roti
               </h2>
             </div>
             <div className='w-auto'>
-              <Link href='#'>
-                <a className='text-gray-900 hover:underline text-sm'>
-                  Lihat Lainya
-                </a>
+              <Link href=''>
+                <a className='text-gray-900 text-sm'>Lihat Lainya</a>
               </Link>
             </div>
           </div>
-          <div className='flex flex-wrap justify-start items-center -mx-4 mt-6'>
-            <div className='w-full md:w-1/4 px-4 mb-6'>
+          <div className='flex flex-wrap justify-start -mx-4 mt-6'>
+            <div className='w-full md:w-1/4 px-4 mb-12'>
               <div>
                 <figure>
-                  <img
-                    src='/images/informasi1.png'
-                    alt='informasi produk terbaru'
-                  />
+                  <img src='/images/rotikasur.png' alt='roti kasur' />
                 </figure>
-                <h4 className='py-2 text-lg text-yellow-800 font-bold'>
-                  Roti Enak
+                <h3 className='text-xl font-bold py-2'>Roti Sip Kasur</h3>
+                <h4 className='text-gray-500 font-light text-base mb-2'>
+                  Roti isi coklat keju
                 </h4>
-                <h6 className='text-lg text-gray-900'>Rp 12.000</h6>
+                <h5 className='text-lg text-gray-900'>Rp 17.500</h5>
               </div>
             </div>
-            <div className='w-full md:w-1/4 px-4 mb-6'>
+            <div className='w-full md:w-1/4 px-4 mb-12'>
               <div>
                 <figure>
-                  <img
-                    src='/images/informasi1.png'
-                    alt='informasi produk terbaru'
-                  />
+                  <img src='/images/rotisobek.png' alt='roti sobek' />
                 </figure>
-                <h4 className='py-2 text-lg text-yellow-800 font-bold'>
-                  Roti Enak
+                <h3 className='text-xl font-bold py-2'>Roti Sobek</h3>
+                <h4 className='text-gray-500 font-light text-base mb-2'>
+                  Roti dengan taburan keju dan gula
                 </h4>
-                <h6 className='text-lg text-gray-900'>Rp 12.000</h6>
+                <h5 className='text-lg text-gray-900'>Rp 17.500</h5>
               </div>
             </div>
-            <div className='w-full md:w-1/4 px-4 mb-6'>
+            <div className='w-full md:w-1/4 px-4 mb-12'>
               <div>
                 <figure>
-                  <img
-                    src='/images/informasi1.png'
-                    alt='informasi produk terbaru'
-                  />
+                  <img src='/images/rotitawar.png' alt='roti tawar' />
                 </figure>
-                <h4 className='py-2 text-lg text-yellow-800 font-bold'>
-                  Roti Enak
-                </h4>
-                <h6 className='text-lg text-gray-900'>Rp 12.000</h6>
+                <h3 className='text-xl font-bold py-2'>Roti Tawar</h3>
+
+                <h5 className='text-lg text-gray-900'>Rp 15.000</h5>
               </div>
             </div>
-            <div className='w-full md:w-1/4 px-4 mb-6'>
+            <div className='w-full md:w-1/4 px-4 mb-12'>
               <div>
                 <figure>
-                  <img
-                    src='/images/informasi1.png'
-                    alt='informasi produk terbaru'
-                  />
+                  <img src='/images/rotikenong.png' alt='roti kenong' />
                 </figure>
-                <h4 className='py-2 text-lg text-yellow-800 font-bold'>
-                  Roti Enak
+                <h3 className='text-xl font-bold py-2'>Roti Kenong</h3>
+                <h4 className='text-gray-500 font-light text-base mb-2'>
+                  Roti berisi coklat dan aneka keju
                 </h4>
-                <h6 className='text-lg text-gray-900'>Rp 12.000</h6>
+                <h5 className='text-lg text-gray-900'>Rp 15.000</h5>
               </div>
             </div>
           </div>
         </section>
-        <section className='container mx-auto mt-6 px-4 py-8 md:py-12'>
+        <section className='container mx-auto px-4'>
           <div className='flex justify-between items-center'>
             <div className='w-auto'>
               <h2 className='text-yellow-500 font-bold text-2xl md:text-3xl'>
-                Coffe
+                Kopi Kekinian
               </h2>
             </div>
             <div className='w-auto'>
-              <Link href='#'>
-                <a className='text-gray-900 hover:underline text-sm'>
-                  Lihat Lainya
-                </a>
+              <Link href=''>
+                <a className='text-gray-900 text-sm'>Lihat Lainya</a>
               </Link>
             </div>
           </div>
-          <div className='flex flex-wrap justify-start items-center -mx-4 mt-6'>
-            <div className='w-full md:w-1/4 px-4 mb-6'>
+          <div className='flex flex-wrap justify-start -mx-4 mt-6'>
+            <div className='w-full md:w-1/4 px-4 mb-12'>
               <div>
                 <figure>
-                  <img
-                    src='/images/informasi1.png'
-                    alt='informasi produk terbaru'
-                  />
+                  <img src='/images/coklat.png' alt='roti kenong' />
                 </figure>
-                <h4 className='py-2 text-lg text-yellow-800 font-bold'>
-                  Kopi Enak
-                </h4>
-                <h6 className='text-lg text-gray-900'>Rp 12.000</h6>
+                <h3 className='text-xl font-bold py-2'>Es Coklat</h3>
+                <h5 className='text-lg text-gray-900'>Rp 10.000</h5>
               </div>
             </div>
-            <div className='w-full md:w-1/4 px-4 mb-6'>
+            <div className='w-full md:w-1/4 px-4 mb-12'>
               <div>
                 <figure>
-                  <img
-                    src='/images/informasi1.png'
-                    alt='informasi produk terbaru'
-                  />
+                  <img src='/images/escappucino.png' alt='es cappucino' />
                 </figure>
-                <h4 className='py-2 text-lg text-yellow-800 font-bold'>
-                  Kopi Enak
+                <h3 className='text-xl font-bold py-2'>Es Cappucino</h3>
+                <h4 className='text-gray-500 font-light text-base mb-2'>
+                  Gula Aren / Gula Tebu
                 </h4>
-                <h6 className='text-lg text-gray-900'>Rp 12.000</h6>
+                <h5 className='text-lg text-gray-900'>Rp 15.000</h5>
+              </div>
+            </div>
+            <div className='w-full md:w-1/4 px-4 mb-12'>
+              <div>
+                <figure>
+                  <img src='/images/hotcappucino.png' alt='Hot Cappucino' />
+                </figure>
+                <h3 className='text-xl font-bold py-2'>Hot Cappucino</h3>
+                <h5 className='text-lg text-gray-900'>Rp 10.000</h5>
+              </div>
+            </div>
+            <div className='w-full md:w-1/4 px-4 mb-12'>
+              <div>
+                <figure>
+                  <img src='/images/kopitubruk.png' alt='Kopi Tubruk' />
+                </figure>
+                <h3 className='text-xl font-bold py-2'>Kopi Tubruk</h3>
+                <h4 className='text-gray-500 font-light text-base mb-2'>
+                  Arabica atau Robusta
+                </h4>
+                <h5 className='text-lg text-gray-900'>Rp 10.000</h5>
               </div>
             </div>
           </div>
         </section>
-        <section className='bg-yellow-50 mx-auto mt-6 px-4 py-8 md:py-12'>
+        {/* <section className='container mx-auto px-4 py-8 md:py-12'>
+          <h2 className='text-yellow-500 font-bold text-2xl md:text-3xl'>
+            Produk Lainya
+          </h2>
+          <div className='flex flex-wrap justify-start items-center mt-6'>
+            <div className='w-full md:w-1/5 px-4 py-4'>
+              <div className='card-socialmedia h-auto transition-all duration-200'>
+                <img
+                  className='mb-4'
+                  src='/images/facebook.png'
+                  alt='facebook-tefa'
+                />
+                <p className='font-bold'>Aneka Kue</p>
+              </div>
+            </div>
+          </div>
+        </section> */}
+        <section className='bg-yellow-50 mx-auto px-4 py-8 md:py-12'>
           <div className='flex justify-center text-center'>
             <h2 className='text-yellow-500 font-bold text-2xl md:text-3xl'>
               Pesan dan Coba Produk di Atas ? <br /> Temukan Kami Di
@@ -201,7 +218,7 @@ export default function produk() {
             </div>
           </div>
         </section>
-        <section className='container mt-6 px-4 mx-auto py-8 md:py-12'>
+        <section className='container px-4 mx-auto py-8 md:py-12'>
           <div className='flex flex-wrap items-center justify-center'>
             <div className='w-full md:w-1/2'>
               <IlustrasiProduk />

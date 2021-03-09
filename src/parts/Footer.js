@@ -15,14 +15,14 @@ export default function Footer() {
           <p className='mt-4 text-white font-light'>
             Jl. Mastrip Kotak Pos 164 <br />
             Jember – Jawa Timur – Indonesia <br />
-            Telp 7262123 | WA +62817218271
+            WA +6282333497811
           </p>
         </div>
         <div className='w-full md:w-1/6 mb-8 md:mb-0'>
           <h6 className='text-white font-bold text-xl md:text-2xl'>Menu</h6>
           <ul className='mt-4'>
             <li className='mt-2'>
-              <Link href='/index'>
+              <Link href='/'>
                 <a className='text-gray-300 font-light hover:text-gray-200 hover:underline'>
                   Home
                 </a>
@@ -64,25 +64,22 @@ export default function Footer() {
           </h6>
           <ul className='mt-4'>
             <li className='mt-2'>
-              <Link href=''>
-                <a className='text-gray-300 font-light hover:text-gray-100 hover:underline'>
-                  Instagram
-                </a>
-              </Link>
+              <a
+                target='_blank'
+                rel='noopener noreferrer'
+                href='https://www.instagram.com/tefasippolije/'
+                className='text-gray-300 font-light hover:text-gray-100 hover:underline'>
+                Instagram
+              </a>
             </li>
             <li className='mt-2'>
-              <Link href=''>
-                <a className='text-gray-300 font-light hover:text-gray-100 hover:underline'>
-                  Facebook
-                </a>
-              </Link>
-            </li>
-            <li className='mt-2'>
-              <Link href=''>
-                <a className='text-gray-300 font-light hover:text-gray-100 hover:underline'>
-                  Twitter
-                </a>
-              </Link>
+              <a
+                target='_blank'
+                rel='noopener noreferrer'
+                href='https://www.facebook.com/tefa.sip'
+                className='text-gray-300 font-light hover:text-gray-100 hover:underline'>
+                Facebook
+              </a>
             </li>
           </ul>
         </div>
@@ -93,6 +90,8 @@ export default function Footer() {
           <ul className='mt-4'>
             <li className='mt-2'>
               <a
+                target='_blank'
+                rel='noopener noreferrer'
                 href='https://www.polije.ac.id'
                 className='text-gray-300 font-light hover:text-gray-200 hover:underline'>
                 Politeknik Negeri Jember

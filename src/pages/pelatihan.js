@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import Link from "next/link";
 import Header from "src/parts/Header";
 import Footer from "src/parts/Footer";
 import Check from "public/images/check.svg";
@@ -177,7 +176,12 @@ export default function produk() {
               <h4 className='font-light'>
                 Ingin informasi lebih lanjut ?{" "}
                 <span className='text-blue-500 font-medium hover:underline'>
-                  <a href=''>Hubungi Admin</a>
+                  <a
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    href='https://api.whatsapp.com/send?phone=6282333497811'>
+                    Hubungi Admin
+                  </a>
                 </span>
               </h4>
             </div>
@@ -202,10 +206,10 @@ export default function produk() {
                   className='block mx-auto'
                 />
                 <h4 className='text-yellow-500 font-medium mt-4'>
-                  Kathryn Murphy
+                  Yusuf Tri Wibowo
                 </h4>
                 <h5 className='text-gray-500 font-light italic text-sm mt-2 mb-4'>
-                  Siswa SMK
+                  Mahasiswa
                 </h5>
                 <p className='font-light'>
                   Pelatihan Dilakukan Oleh Mentor Profesioanal
@@ -220,13 +224,13 @@ export default function produk() {
                   className='block mx-auto'
                 />
                 <h4 className='text-yellow-500 font-medium mt-4'>
-                  Kathryn Murphy
+                  Ridwan Hananto
                 </h4>
                 <h5 className='text-gray-500 font-light italic text-sm mt-2 mb-4'>
                   Mahasiswa
                 </h5>
                 <p className='font-light'>
-                  Pelatihan Nyaman dan Sangan Mudah Dimengerti
+                  Pelatihan Nyaman dan Mudah Dimengerti
                 </p>
               </div>
             </div>
@@ -238,7 +242,7 @@ export default function produk() {
                   className='block mx-auto'
                 />
                 <h4 className='text-yellow-500 font-medium mt-4'>
-                  Kathryn Murphy
+                  David Bristi
                 </h4>
                 <h5 className='text-gray-500 font-light italic text-sm mt-2 mb-4'>
                   Pengusaha

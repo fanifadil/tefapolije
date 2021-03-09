@@ -14,7 +14,7 @@ export default function kontak() {
       </Head>
       <main>
         <section
-          className='bg-primary-color pt-10 px-4 min-h-screen md:min-h-0'
+          className='bg-primary-color pt-10 px-4 md:px-8 min-h-screen md:min-h-0'
           style={{ height: 660 }}>
           <div className='container relative mx-auto z-50'>
             <Header></Header>
@@ -40,46 +40,49 @@ export default function kontak() {
         <section className='mx-auto px-4 py-8 md:py-12'>
           <div className='flex flex-wrap justify-center items-center mt-6'>
             <div className='w-full md:w-1/5 px-4 py-4'>
-              <Link href='https://www.facebook.com/tefa.sip'>
-                <a>
-                  <div className='card-socialmedia h-auto relative text-center transition-all duration-200'>
-                    <img
-                      className='mx-auto block mb-4'
-                      src='/images/facebook.png'
-                      alt='facebook-tefa'
-                    />
-                    <p className='font-bold'>Tefa Sip</p>
-                  </div>
-                </a>
-              </Link>
+              <a
+                target='_blank'
+                rel='noopener noreferrer'
+                href='https://www.facebook.com/tefa.sip'>
+                <div className='card-socialmedia h-auto relative text-center transition-all duration-200'>
+                  <img
+                    className='mx-auto block mb-4'
+                    src='/images/facebook.png'
+                    alt='facebook-tefa'
+                  />
+                  <p className='font-bold'>Tefa Sip</p>
+                </div>
+              </a>
             </div>
             <div className='w-full md:w-1/5 px-4 py-4'>
-              <Link href='https://api.whatsapp.com/send?phone=6282333497811'>
-                <a>
-                  <div className='card-socialmedia h-auto relative text-center transition-all duration-200'>
-                    <img
-                      className='mx-auto block mb-4'
-                      src='/images/whatsapp.png'
-                      alt='whatsapp-tefa'
-                    />
-                    <p className='font-bold'>+6282333497811</p>
-                  </div>
-                </a>
-              </Link>
+              <a
+                target='_blank'
+                rel='noopener noreferrer'
+                href='https://api.whatsapp.com/send?phone=6282333497811'>
+                <div className='card-socialmedia h-auto relative text-center transition-all duration-200'>
+                  <img
+                    className='mx-auto block mb-4'
+                    src='/images/whatsapp.png'
+                    alt='whatsapp-tefa'
+                  />
+                  <p className='font-bold'>+6282333497811</p>
+                </div>
+              </a>
             </div>
             <div className='w-full md:w-1/5 px-4 py-4'>
-              <Link href='https://www.instagram.com/tefasippolije/'>
-                <a>
-                  <div className='card-socialmedia h-auto relative text-center transition-all duration-200'>
-                    <img
-                      className='mx-auto block mb-4'
-                      src='/images/instagram.png'
-                      alt='instagram-tefa'
-                    />
-                    <p className='font-bold'>@tefasippolije</p>
-                  </div>
-                </a>
-              </Link>
+              <a
+                target='_blank'
+                rel='noopener noreferrer'
+                href='https://www.instagram.com/tefasippolije/'>
+                <div className='card-socialmedia h-auto relative text-center transition-all duration-200'>
+                  <img
+                    className='mx-auto block mb-4'
+                    src='/images/instagram.png'
+                    alt='instagram-tefa'
+                  />
+                  <p className='font-bold'>@tefasippolije</p>
+                </div>
+              </a>
             </div>
           </div>
         </section>
