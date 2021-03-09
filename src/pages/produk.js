@@ -48,9 +48,11 @@ export default function produk() {
                 Aneka Roti
               </h2>
             </div>
-            <div className='w-auto'>
+            <div className=''>
               <Link href='#'>
-                <a className='text-gray-900 text-sm hover:underline'>Lihat Lainya</a>
+                <a className='text-gray-900 text-sm hover:underline'>
+                  Lihat Lainya
+                </a>
               </Link>
             </div>
           </div>
@@ -112,7 +114,9 @@ export default function produk() {
             </div>
             <div className='w-auto'>
               <Link href='#'>
-                <a className='text-gray-900 text-sm hover:underline'>Lihat Lainya</a>
+                <a className='text-gray-900 text-sm hover:underline'>
+                  Lihat Lainya
+                </a>
               </Link>
             </div>
           </div>
