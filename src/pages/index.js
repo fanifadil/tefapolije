@@ -25,7 +25,7 @@ export default function Home() {
             <div className='flex justify-between items-center'>
               <div className='w-full md:w-1/2 mt-8 md:mt-0'>
                 <h3 className='text-lg text-yellow-500 font-bold'>Home</h3>
-                <h1 className='text-5xl text-white mb-5 font-bold leading-normal'>
+                <h1 className='text-4xl md:text-5xl text-white mb-5 font-bold leading-normal'>
                   Teaching Factory
                   <span className='text-yellow-500'> Bakery Coffe </span> &
                   <span className='text-yellow-500'> Fish Canning</span>
@@ -55,7 +55,7 @@ export default function Home() {
         </section>
         <section
           id='detail'
-          className='bg-yellow-50 mt-0 md:mt-24 py-8 md:py-12'>
+          className='bg-yellow-50 mt-12 md:mt-24 py-8 md:py-12'>
           <div className='w-full text-center'>
             <h1 className='text-yellow-500 text-2xl md:text-3xl font-bold'>
               Teaching Factory

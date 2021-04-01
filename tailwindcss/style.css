@@ -49,7 +49,6 @@ header li:hover:after {
   @apply absolute;
   background-color: #3a2720;
   content: "";
-  height: 648px;
   clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
 }
 

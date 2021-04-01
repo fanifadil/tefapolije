@@ -13,27 +13,27 @@ export default function kontak() {
         <link rel='shortcut icon' href='/images/logo-tefa.png' />
       </Head>
       <main>
-        <section
-          className='bg-primary-color pt-10 px-4 md:px-8 min-h-screen md:min-h-0'
-          style={{ height: 660 }}>
+        <section className='bg-primary-color pt-10 px-4 md:px-8 min-h-screen md:min-h-0 pb-12'>
           <div className='container relative mx-auto z-50'>
             <Header></Header>
-          </div>
-          <div className='md:flex justify-between items-center'>
-            <div className='w-full md:w-1/2 mt-12 md:mt-0'>
-              <h3 className='text-lg text-yellow-500 font-bold'>Kontak</h3>
-              <h1 className='text-3xl md:text-5xl text-white font-bold leading-relaxed md:leading-normal mt-6 md:mt-0 mb-4 md:mb-0'>
-                Ada Pertanyaan, Saran dan Masukan ?{" "}
-                <span className='font-bold text-yellow-500'>Hubungi Kami</span>
-              </h1>
-              <p className='font-light text-white text-md md:text-lg'>
-                Kami menerima saran, masukan dan siap untuk menjawab setiap
-                pertanyaan terkait dengan kebutuhan anda. Jangan ragu untuk
-                menghubungi kami
-              </p>
-            </div>
-            <div className='w-full md:w-1/2 justify-end pt-16'>
-              <IlustrasiHero></IlustrasiHero>
+            <div className='md:flex justify-between items-center'>
+              <div className='w-full md:w-1/2 py-8 md:mt-0'>
+                <h3 className='text-lg text-yellow-500 font-bold'>Kontak</h3>
+                <h1 className='text-3xl md:text-5xl text-white font-bold leading-relaxed md:leading-normal mt-6 md:mt-0 mb-4 md:mb-0'>
+                  Ada Pertanyaan, Saran dan Masukan ?{" "}
+                  <span className='font-bold text-yellow-500'>
+                    Hubungi Kami
+                  </span>
+                </h1>
+                <p className='font-light text-white text-md md:text-lg'>
+                  Kami menerima saran, masukan dan siap untuk menjawab setiap
+                  pertanyaan terkait dengan kebutuhan anda. Jangan ragu untuk
+                  menghubungi kami
+                </p>
+              </div>
+              <div className='w-full md:w-1/2 justify-end pt-16'>
+                <IlustrasiHero></IlustrasiHero>
+              </div>
             </div>
           </div>
         </section>

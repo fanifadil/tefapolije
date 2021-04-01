@@ -23,8 +23,10 @@ export default function produk() {
           <div
             className='absolute inset-0 z-0 w-full h-full bg-black opacity-75'
             style={{ height: 660 }}></div>
-          <div className='absolute inset-0 object-fill z-0 w-full flex justify-center items-center'>
-            <div className='text-center'>
+          <div
+            className='absolute inset-0 z-0 w-full flex justify-center items-center'
+            style={{ height: 660 }}>
+            <div className='text-center '>
               <h3 className='text-lg text-yellow-500 font-bold'>Pelatihan</h3>
               <h2 className='text-3xl md:text-5xl text-white font-semibold mt-4 md:mt-8 px-4'>
                 Pilih Paket Pelatihan Anda Sekarang Juga
