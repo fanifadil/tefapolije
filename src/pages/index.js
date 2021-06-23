@@ -89,6 +89,7 @@ export default function Home({ data }) {
                 playsInline
                 class='absolute z-10 w-auto min-w-full min-h-full max-w-none'
                 src='/video/tefa_video.mp4'></video>
+              <div className='absolute inset-0 -mt-14 z-10 min-w-full min-h-full bg-black opacity-75'></div>
             </div>
             <div className='absolute inset-0 -mt-14 z-10 min-w-full min-h-full bg-black opacity-75'></div>
           </div>
