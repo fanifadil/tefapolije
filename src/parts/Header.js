@@ -77,7 +77,7 @@ export default function Header() {
           </Link>
         </li>
         <li className='px-6 flex md:inline'>
-          <Link href='kontak'>
+          <Link href='/kontak'>
             <a
               className={[
                 "text-lg ",

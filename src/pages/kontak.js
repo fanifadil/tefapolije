@@ -13,13 +13,15 @@ export default function kontak() {
         <link rel='shortcut icon' href='/images/logo-tefa.png' />
       </Head>
       <main>
-        <section className='bg-primary-color pt-10 px-4 md:px-8 min-h-screen md:min-h-0 pb-12'>
+        <section
+          className='bg-primary-color pt-10 px-4 md:px-8 min-h-screen md:min-h-0 pb-12'
+          style={{ height: 700 }}>
           <div className='container relative mx-auto z-50'>
             <Header></Header>
             <div className='md:flex justify-between items-center'>
               <div className='w-full md:w-1/2 py-8 md:mt-0'>
-                <h3 className='text-lg text-yellow-500 font-bold'>Kontak</h3>
-                <h1 className='text-3xl md:text-5xl text-white font-bold leading-relaxed md:leading-normal mt-6 md:mt-0 mb-4 md:mb-0'>
+                <h3 className='text-lg font-light text-gray-300'>Kontak</h3>
+                <h1 className='text-3xl md:text-5xl text-white font-bold leading-relaxed md:leading-normal mt-4 mb-4 md:mb-0'>
                   Ada Pertanyaan, Saran dan Masukan ?{" "}
                   <span className='font-bold text-yellow-500'>
                     Hubungi Kami
@@ -37,7 +39,7 @@ export default function kontak() {
             </div>
           </div>
         </section>
-        <section className='mx-auto px-4 py-8 md:py-12'>
+        <section className='container mx-auto px-4 py-8 md:py-12'>
           <div className='flex flex-wrap justify-center items-center mt-6'>
             <div className='w-full md:w-1/5 px-4 py-4'>
               <a

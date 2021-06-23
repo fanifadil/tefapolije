@@ -1,8 +1,14 @@
 import Head from "next/head";
-import Link from "next/link";
+import Axios from "src/configs/axios";
 import Header from "src/parts/Header";
+import ListInformation from "src/parts/ListInformation";
 import Footer from "src/parts/Footer";
-export default function Home() {
+import PaketA from "public/images/paket_A.svg";
+import Smart from "public/images/smart.svg";
+import Innovative from "public/images/innovative.svg";
+import Profesional from "public/images/profesional.svg";
+
+export default function Home({ data }) {
   function showDetail() {
     document.getElementById("detail").scrollIntoView({
       behavior: "smooth",
@@ -17,46 +23,78 @@ export default function Home() {
         <link rel='shortcut icon' href='/images/logo-tefa.png' />
       </Head>
       <main>
-        <section
-          className='header-clipping pt-10 px-4 min-h-screen md:min-h-0'
-          style={{ height: 654 }}>
-          <div className='container relative mx-auto'>
-            <Header></Header>
-            <div className='flex justify-between items-center'>
-              <div className='w-full md:w-1/2 mt-8 md:mt-0'>
-                <h3 className='text-lg text-yellow-500 font-bold'>Home</h3>
-                <h1 className='text-4xl md:text-5xl text-white mb-5 font-bold leading-normal'>
-                  Teaching Factory
-                  <span className='text-yellow-500'> Bakery Coffe </span> &
-                  <span className='text-yellow-500'> Fish Canning</span>
-                </h1>
-                <p className='text-gray-100 font-light text-lg mb-8'>
-                  UPT pengolahan & pengemasan produk pangan{" "}
-                  <br className='hidden md:block' /> Politeknik Negeri Jember
-                </p>
-                <button
-                  onClick={showDetail}
-                  className='bg-yellow-500 rounded-md hover:bg-yellow-400 transition-all duration-200 focus:outline-none shadow-inner text-white px-6 py-3'>
-                  Baca Lebih Lanjut
-                </button>
-              </div>
-              <div className='hidden w-1/2 md:flex justify-end pt-24 pr-16'>
-                <div className='relative' style={{ width: 369, height: 440 }}>
-                  <div
-                    className='absolute border- border-gray-700 border-2 -mt-6 -mr-2 right-0'
-                    style={{ width: 369, height: 440 }}></div>
-                  <div className='absolute w-full h-full -mb-8 -ml-8 z-0'>
-                    <img src='/images/image-tefa.png' alt='pelatihantefa' />
+        <section className='overflow-hidden'>
+          <section className='container mx-auto'>
+            <div className='container mx-auto items-center w-full absolute pt-10 px-4 md:px-24  z-50'>
+              <Header></Header>
+              <div className='flex md:flex-nowrap justify-between items-center'>
+                <div className='w-full md:w-1/2 mt-8 md:mt-0'>
+                  <h3 className='text-lg font-light text-gray-300'>Home</h3>
+                  <h1 className='text-3xl md:text-4xl text-white mb-5 font-bold leading-normal md:leading-relaxed'>
+                    Teaching Factory
+                    <span className='text-yellow-500'> Bakery Coffe </span> &
+                    <span className='text-yellow-500'> Fish Canning</span>
+                  </h1>
+                  <p className='text-gray-100 font-light text-lg mb-8'>
+                    UPT pengolahan & pengemasan produk pangan{" "}
+                    <br className='hidden md:block' /> Politeknik Negeri Jember
+                  </p>
+                  <div className='flex mb-8'>
+                    <div className='w-full md:w-1/3 mr-4'>
+                      <Smart className=' fill-green-500'></Smart>
+                      <h1 className='text-white font-medium mt-2'>Smart</h1>
+                    </div>
+                    <div className='w-full md:w-1/3 mr-4'>
+                      <Innovative className=' fill-green-500'></Innovative>
+                      <h1 className='text-white font-medium mt-2'>
+                        Innovative
+                      </h1>
+                    </div>
+                    <div className='w-full md:w-1/3'>
+                      <Profesional className=' fill-green-500'></Profesional>
+                      <h1 className='text-white font-medium mt-2'>
+                        Profesional
+                      </h1>
+                    </div>
+                  </div>
+                  <button
+                    onClick={showDetail}
+                    className='bg-yellow-500 rounded-md hover:bg-yellow-400 transition-all duration-200 focus:outline-none shadow-inner text-white px-6 py-3'>
+                    Baca Lebih Lanjut
+                  </button>
+                </div>
+
+                <div className='hidden w-1/2 md:flex justify-end pt-24 pr-16'>
+                  <div className='relative' style={{ width: 369, height: 440 }}>
+                    <div
+                      className='absolute border-gray-400 border-2 -mt-4 right-0'
+                      style={{ width: 369, height: 440 }}></div>
+                    <div className='absolute w-full h-full -mb-8 -ml-8 z-0'>
+                      <img
+                        src='/images/image-tefa.png'
+                        alt='tefa bakery coffee'
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+          </section>
+          <div>
+            <div className='relative mx-auto flex items-center justify-center h-screen mb-12 overflow-hidden'>
+              <video
+                autoPlay
+                loop
+                muted
+                playsInline
+                class='absolute z-10 w-auto min-w-full min-h-full max-w-none'
+                src='/video/tefa_video.mp4'></video>
+            </div>
+            <div className='absolute inset-0 -mt-14 z-10 min-w-full min-h-full bg-black opacity-75'></div>
           </div>
         </section>
-        <section
-          id='detail'
-          className='bg-yellow-50 mt-12 md:mt-24 py-8 md:py-12'>
-          <div className='w-full text-center'>
+        <section id='detail' className='bg-yellow-50 py-8 md:py-12'>
+          <div className='container mx-auto w-full text-center'>
             <h1 className='text-yellow-500 text-2xl md:text-3xl font-bold'>
               Teaching Factory
             </h1>
@@ -71,56 +109,7 @@ export default function Home() {
           </div>
         </section>
         <section className='container mx-auto mt-12 md:mt-24 px-4'>
-          <div className='flex justify-between items-center'>
-            <div className='w-auto'>
-              <h2 className='text-yellow-500 text-2xl md:text-3xl font-bold'>
-                Informasi Terbaru
-              </h2>
-            </div>
-            <div className='w-auto'>
-              <Link href=''>
-                <a className='text-gray-900 hover:underline'>Lihat Lainya</a>
-              </Link>
-            </div>
-          </div>
-          <div className='flex flex-wrap justify-start items-center -mx-4 mt-6'>
-            <div className='w-full md:w-1/4 px-4 mb-6'>
-              <div>
-                <figure>
-                  <img
-                    src='/images/informasi1.png'
-                    alt='informasi produk terbaru'
-                  />
-                </figure>
-                <h4 className='py-4 text-lg font-bold'>
-                  Produk terbaru dari teaching factory bakery and coffe
-                </h4>
-                <a
-                  href=''
-                  className='text-c text-blue-800 hover:text-blue-600 hover:underline'>
-                  Baca Selengkapnya
-                </a>
-              </div>
-            </div>
-            <div className='w-full md:w-1/4 px-4 mb-6'>
-              <div>
-                <figure>
-                  <img
-                    src='/images/informasi2.png'
-                    alt='informasi produk terbaru'
-                  />
-                </figure>
-                <h4 className='py-4 text-lg font-bold'>
-                  Peraturan terbaru mengenai informasi magang
-                </h4>
-                <a
-                  href=''
-                  className='text-c text-blue-800 hover:text-blue-600 hover:underline'>
-                  Baca Selengkapnya
-                </a>
-              </div>
-            </div>
-          </div>
+          <ListInformation data={data}></ListInformation>
         </section>
         <section className='mt-12 md:mt-24 px-4 bg-primary-color py-12'>
           <Footer></Footer>
@@ -129,3 +118,12 @@ export default function Home() {
     </>
   );
 }
+
+Home.getInitialProps = async () => {
+  try {
+    const data = await Axios.get(`/information`);
+    return { data: data.data };
+  } catch (error) {
+    return error;
+  }
+};

@@ -36,7 +36,7 @@ header li:hover:after {
   min-width: 100%;
   max-width: 100%;
   object-fit: cover;
-  height: 660px;
+  height: 700px;
 }
 
 .header-clipping {
@@ -94,6 +94,7 @@ header li:hover:after {
   transform: translateY(-50%) rotate(45deg);
 }
 
+
 .card {
   @apply relative;
   @apply p-6;
@@ -140,4 +141,8 @@ header li:hover:after {
   @apply border;
   @apply bg-yellow-100;
   @apply p-4;
+}
+
+.-mt-26{
+  margin-top: -6.5rem;
 }

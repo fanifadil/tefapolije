@@ -11,7 +11,7 @@ export default function tentangkami() {
         <link rel='shortcut icon' href='/images/logo-tefa.png' />
       </Head>
       <main>
-        <section className='px-4 pt-10 overflow-hidden' style={{ height: 660 }}>
+        <section className='px-4 pt-10 overflow-hidden' style={{ height: 700 }}>
           <img
             className='image-wrapper'
             alt='teachingfactory'
@@ -19,20 +19,20 @@ export default function tentangkami() {
           />
           <div
             className='absolute inset-0 z-0 w-full h-full bg-black opacity-75'
-            style={{ height: 660 }}></div>
+            style={{ height: 700 }}></div>
           <div
-            className='absolute inset-0 z-0 w-full flex justify-center items-center'
-            style={{ height: 660 }}>
+            className='container mx-auto absolute inset-0 z-0 w-full flex justify-center items-center'
+            style={{ height: 700 }}>
             <div className='text-center'>
-              <h3 className='text-lg text-yellow-500 font-bold'>
-                Tentang Kami
-              </h3>
-              <h2 className='text-3xl md:text-5xl text-white font-semibold mt-4 md:mt-8 px-4'>
-                Teaching Factory Bakery & Coffe
+              <h3 className='text-lg font-light text-gray-300'>Tentang Kami</h3>
+              <h2 className='text-3xl md:text-4xl text-white font-semibold mt-4 px-4'>
+                Tentang{" "}
+                <span className='text-yellow-500'>Teaching Factory Bakery</span>
+                {""} & <span className='text-yellow-500'>Coffee</span>
               </h2>
               <p className='mx-8 md:mx-28 py-4 font-light font-white text-md md:text-lg text-white'>
                 TEFA Coffe and Bakery merupakan salah satu TEFA dari 34 TEFA
-                yang ada di Politeknik Negeri Jember. Tefa Bakery & Coffe
+                yang ada di Politeknik Negeri Jember. Tefa Bakery & Coffee
                 berfokus pada pengolahan dan pengemasan produk makanan
                 <br />
               </p>
