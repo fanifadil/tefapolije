@@ -91,7 +91,6 @@ export default function Home({ data }) {
                 src='/video/tefa_video.mp4'></video>
               <div className='absolute inset-0 -mt-14 z-10 min-w-full min-h-full bg-black opacity-75'></div>
             </div>
-            <div className='absolute inset-0 -mt-14 z-10 min-w-full min-h-full bg-black opacity-75'></div>
           </div>
         </section>
         <section id='detail' className='bg-yellow-50 py-8 md:py-12'>
