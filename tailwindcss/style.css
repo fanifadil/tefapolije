@@ -143,6 +143,11 @@ header li:hover:after {
   @apply p-4;
 }
 
+.card-information {
+  @apply relative;
+  @apply border-2;
+}
+
 .-mt-26{
   margin-top: -6.5rem;
 }

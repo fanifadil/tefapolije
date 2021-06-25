@@ -2,8 +2,9 @@ import React from "react";
 import Head from "next/head";
 import Header from "src/parts/Header";
 import Footer from "src/parts/Footer";
+import Axios from "src/configs/axios";
 
-export default function tentangkami() {
+export default function tentangkami({ data }) {
   return (
     <>
       <Head>
@@ -25,7 +26,7 @@ export default function tentangkami() {
             style={{ height: 700 }}>
             <div className='text-center'>
               <h3 className='text-lg font-light text-gray-300'>Tentang Kami</h3>
-              <h2 className='text-3xl md:text-4xl text-white font-semibold mt-4 px-4'>
+              <h2 className='text-3xl md:text-5xl text-white font-semibold mt-4 px-4'>
                 Tentang{" "}
                 <span className='text-yellow-500'>Teaching Factory Bakery</span>
                 {""} & <span className='text-yellow-500'>Coffee</span>
@@ -51,46 +52,24 @@ export default function tentangkami() {
             </div>
           </div>
           <div className='flex flex-wrap justify-start items-center -mx-4 mt-6'>
-            <div className='w-full md:w-1/4 px-4 mb-6'>
-              <div>
-                <figure>
-                  <img
-                    src='/images/informasi2.png'
-                    alt='informasi produk terbaru'
-                  />
-                </figure>
-              </div>
-            </div>
-            <div className='w-full md:w-1/4 px-4 mb-6'>
-              <div>
-                <figure>
-                  <img
-                    src='/images/informasi2.png'
-                    alt='informasi produk terbaru'
-                  />
-                </figure>
-              </div>
-            </div>
-            <div className='w-full md:w-1/4 px-4 mb-6'>
-              <div>
-                <figure>
-                  <img
-                    src='/images/informasi2.png'
-                    alt='informasi produk terbaru'
-                  />
-                </figure>
-              </div>
-            </div>
-            <div className='w-full md:w-1/4 px-4 mb-6'>
-              <div>
-                <figure>
-                  <img
-                    src='/images/informasi2.png'
-                    alt='informasi produk terbaru'
-                  />
-                </figure>
-              </div>
-            </div>
+            {data?.length > 0 ? (
+              data.map((item, index) => {
+                return (
+                  <div className='w-full md:w-1/4 px-4 mb-6' key={index}>
+                    <div>
+                      <figure>
+                        <img
+                          src={item?.img ?? ""}
+                          alt='Galeri Teaching Factory Backery Coffee & Fish Chaining'
+                        />
+                      </figure>
+                    </div>
+                  </div>
+                );
+              })
+            ) : (
+              <div className='w-full text-center py-12'>No Item Found</div>
+            )}
           </div>
         </section>
         <section className='mt-12 px-4 bg-primary-color py-12'>
@@ -100,3 +79,12 @@ export default function tentangkami() {
     </>
   );
 }
+
+tentangkami.getInitialProps = async () => {
+  try {
+    const data = await Axios.get(`/galery`);
+    return { data: data.data };
+  } catch (error) {
+    return error;
+  }
+};

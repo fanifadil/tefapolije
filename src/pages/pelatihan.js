@@ -3,7 +3,9 @@ import Head from "next/head";
 import Header from "src/parts/Header";
 import Footer from "src/parts/Footer";
 import Check from "public/images/check.svg";
-import PaketA from "public/images/paket_A.svg";
+import PaketA from "public/images/PaketAicon.svg";
+import PaketB from "public/images/PaketBicon.svg";
+import PaketC from "public/images/PaketCicon.svg";
 import Study from "public/images/study.svg";
 import Cost from "public/images/cost.svg";
 import Modern from "public/images/modern.svg";
@@ -31,7 +33,7 @@ export default function produk() {
             style={{ height: 700 }}>
             <div className='text-center '>
               <h3 className='text-lg font-light text-gray-300'>Pelatihan</h3>
-              <h2 className='text-3xl md:text-4xl text-white font-semibold mt-4 px-4'>
+              <h2 className='text-3xl md:text-5xl text-white font-semibold mt-4 px-4'>
                 Pilih <span className='text-yellow-500'>Paket Pelatihan</span>{" "}
                 Anda <span className='text-yellow-500'>Sekarang Juga</span>
               </h2>
@@ -71,7 +73,7 @@ export default function produk() {
                   <ul className='flex items-center py-2'>
                     <Check></Check>
                     <h2 className='text-medium ml-2'>
-                      Pelatihan 2 Hari Dalam Seminggu
+                      Pelatihan 3 Hari Seminggu
                     </h2>
                   </ul>
                   <ul className='flex items-center py-2'>
@@ -97,7 +99,7 @@ export default function produk() {
             </div>
             <div className='w-full md:w-2/6 px-4 py-4'>
               <div className='card bg-green-50 border-green-500 h-auto relative transition-all duration-200'>
-                <PaketA className='mx-auto block my-4 fill-green-500'></PaketA>
+                <PaketB className='mx-auto block my-4 fill-green-500'></PaketB>
                 <h4 className='text-center font-light text-lg'>Paket B</h4>
                 <h2 className='text-center font-bold text-xl py-4'>
                   Rp 800 rb{" "}
@@ -134,7 +136,7 @@ export default function produk() {
             </div>
             <div className='w-full md:w-2/6 px-4 py-4'>
               <div className='card bg-purple-50 border-purple-500 h-auto relative transition-all duration-200'>
-                <PaketA className='mx-auto block my-4 fill-purple-500'></PaketA>
+                <PaketC className='mx-auto block my-4 fill-purple-500'></PaketC>
                 <h4 className='text-center font-light text-lg'>Paket C</h4>
                 <h2 className='text-center font-bold text-xl py-4'>
                   Rp 1 jt{" "}
@@ -145,7 +147,7 @@ export default function produk() {
                   <ul className='flex items-center py-2'>
                     <Check></Check>
                     <h2 className='text-medium ml-2'>
-                      Pelatihan 2 Hari Dalam Seminggu
+                      Pelatihan 3 Hari Seminggu
                     </h2>
                   </ul>
                   <ul className='flex items-center py-2'>

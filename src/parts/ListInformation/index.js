@@ -12,7 +12,7 @@ export default function index({ data }) {
           </h2>
         </div>
       </div>
-      <div className='flex flex-wrap justify-start items-center -mx-4 mt-6'>
+      <div className='flex flex-wrap justify-start -mx-4 mt-6'>
         {data?.length > 0 ? (
           data.map((item, index) => {
             return <RenderItem item={item} key={index}></RenderItem>;

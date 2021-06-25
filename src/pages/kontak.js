@@ -14,7 +14,7 @@ export default function kontak() {
       </Head>
       <main>
         <section
-          className='bg-primary-color pt-10 px-4 md:px-8 min-h-screen md:min-h-0 pb-12'
+          className='bg-primary-color pt-10 px-4 min-h-screen md:min-h-0 pb-12'
           style={{ height: 700 }}>
           <div className='container relative mx-auto z-50'>
             <Header></Header>

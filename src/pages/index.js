@@ -3,7 +3,6 @@ import Axios from "src/configs/axios";
 import Header from "src/parts/Header";
 import ListInformation from "src/parts/ListInformation";
 import Footer from "src/parts/Footer";
-import PaketA from "public/images/paket_A.svg";
 import Smart from "public/images/smart.svg";
 import Innovative from "public/images/innovative.svg";
 import Profesional from "public/images/profesional.svg";
@@ -25,12 +24,12 @@ export default function Home({ data }) {
       <main>
         <section className='overflow-hidden'>
           <section className='container mx-auto'>
-            <div className='container mx-auto items-center w-full absolute pt-10 px-4 md:px-24  z-50'>
+            <div className='container mx-auto items-center w-full absolute pt-10 px-4 z-50'>
               <Header></Header>
               <div className='flex md:flex-nowrap justify-between items-center'>
                 <div className='w-full md:w-1/2 mt-8 md:mt-0'>
                   <h3 className='text-lg font-light text-gray-300'>Home</h3>
-                  <h1 className='text-3xl md:text-4xl text-white mb-5 font-bold leading-normal md:leading-relaxed'>
+                  <h1 className='text-3xl md:text-5xl text-white mb-5 font-bold leading-normal md:leading-relaxed'>
                     Teaching Factory
                     <span className='text-yellow-500'> Bakery Coffe </span> &
                     <span className='text-yellow-500'> Fish Canning</span>
@@ -63,7 +62,6 @@ export default function Home({ data }) {
                     Baca Lebih Lanjut
                   </button>
                 </div>
-
                 <div className='hidden w-1/2 md:flex justify-end pt-24 pr-16'>
                   <div className='relative' style={{ width: 369, height: 440 }}>
                     <div
@@ -87,7 +85,7 @@ export default function Home({ data }) {
                 loop
                 muted
                 playsInline
-                class='absolute z-10 w-auto min-w-full min-h-full max-w-none'
+                className='absolute z-10 w-auto min-w-full min-h-full max-w-none'
                 src='/video/tefa_video.mp4'></video>
               <div className='absolute inset-0 -mt-14 z-10 min-w-full min-h-full bg-black opacity-75'></div>
             </div>
@@ -111,7 +109,7 @@ export default function Home({ data }) {
         <section className='container mx-auto mt-12 md:mt-24 px-4'>
           <ListInformation data={data}></ListInformation>
         </section>
-        <section className='mt-12 md:mt-24 px-4 bg-primary-color py-12'>
+        <section className='mt-12 md:mt-24 mx-auto px-4 bg-primary-color py-12'>
           <Footer></Footer>
         </section>
       </main>

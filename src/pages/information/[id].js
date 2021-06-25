@@ -18,11 +18,16 @@ function DetailInformasi({ data }) {
           </div>
         </section>
         <section className='container mx-auto px-4 py-8 md:py-12'>
-          <div className='justify-center items-center md:px-36'>
-            <h6 className='text-gray-700 font-light'>
-              Dipublisikasi Pada {data?.date_created ?? "tanggal publish"}
+          <div className='justify-between flex md:px-36'>
+            <h6 className='text-gray-700 font-light text-sm md:text-base'>
+              Home > Detail Informasi
             </h6>
-            <h1 className='text-2xl md:text-5xl font-bold mb-4 md:mb-12 mt-2 md:mt-4 leading-normal md:leading-relaxed'>
+            <h6 className='text-gray-700 font-light text-sm md:text-base'>
+              {data?.date_created ?? "tanggal publish"}
+            </h6>
+          </div>
+          <div className='justify-center items-center md:px-36'>
+            <h1 className='text-xl md:text-5xl font-bold mb-4 md:mb-12 mt-2 md:mt-4 leading-normal md:leading-relaxed'>
               {data?.title ?? "Informasi"}
             </h1>
             <figure>

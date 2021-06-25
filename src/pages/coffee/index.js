@@ -37,7 +37,9 @@ export default function index({ dataBakery, dataCoffee }) {
                 </span>
               </h2>
               <p className='font-light mt-4 md:mt-8 px-4 font-white text-md md:text-lg text-white'>
-                Aneka Kopi Polije
+                Aneka Kopi dan minuman SIP POLIJE yang menjadi icon produk dari
+                TEFA Teaching Bakery & Coffee yang telah diolah dari bahan yang
+                berkualitas
               </p>
             </div>
           </div>

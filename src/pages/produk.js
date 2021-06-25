@@ -3,7 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Header from "src/parts/Header";
 import Footer from "src/parts/Footer";
-import IlustrasiProduk from "public/images/ilustrasi-produk.svg";
+import IlustrasiPelatihan from "public/images/ilustrasi-pelatihan.svg";
 import ListBakery from "src/parts/ListBakery";
 import ListCoffee from "src/parts/ListCoffee";
 import Axios from "src/configs/axios";
@@ -30,7 +30,7 @@ export default function produk({ dataBakery, dataCoffee }) {
             style={{ height: 700 }}>
             <div className='text-center'>
               <h3 className='text-lg font-light text-gray-300'>Produk</h3>
-              <h2 className='text-3xl md:text-4xl text-white font-semibold mt-4 px-4'>
+              <h2 className='text-3xl md:text-5xl text-white font-semibold mt-4 px-4'>
                 Produk <span className='text-yellow-500'>Unggulan</span> TEFA
                 Bakery & Coffee
               </h2>
@@ -103,7 +103,7 @@ export default function produk({ dataBakery, dataCoffee }) {
                     alt='logo-gojek'
                   />
                   <h4 className='font-light text-2xl'>Via Gojek</h4>
-                  <p className='font-bold my-4'>TefaSipPolije</p>
+                  <p className='font-bold my-4'>Cafe Tefa, Sumbersari</p>
                   <p className='text-gray-500 font-light italic'>
                     Buka Mulai 08.00 - 17.00 WIB
                   </p>
@@ -115,7 +115,7 @@ export default function produk({ dataBakery, dataCoffee }) {
         <section className='container px-4 mx-auto py-8 md:py-12'>
           <div className='flex flex-wrap items-center justify-center'>
             <div className='w-full md:w-1/2'>
-              <IlustrasiProduk />
+              <IlustrasiPelatihan />
             </div>
             <div className='w-full md:w-1/2'>
               <div className='text-center px-0 md:px-6'>
