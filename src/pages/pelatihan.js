@@ -38,11 +38,11 @@ export default function produk() {
                 Anda <span className='text-yellow-500'>Sekarang Juga</span>
               </h2>
               <p className='mx-4 md:mx-28 py-4 font-light font-white text-md md:text-lg text-white'>
-                TEFA Coffe and Bakery Politeknik Negeri Jember saat ini membuka
-                pelatihan kepada siswa magang atau kepada siapa saja yang ingin
-                belajar membuat suatu produk yang telah dihasilkan oleh Tefa
-                Bakery and Coffe saat ini. Pelaksanaan pelatihan dilakukan oleh
-                mentor yang profesional <br />
+                TEFA Bakery Coffee and Fish Canning Politeknik Negeri Jember
+                saat ini membuka pelatihan kepada siswa magang atau kepada siapa
+                saja yang ingin belajar membuat suatu produk yang telah
+                dihasilkan oleh Tefa Bakery and Coffe saat ini. Pelaksanaan
+                pelatihan dilakukan oleh mentor yang profesional <br />
               </p>
             </div>
           </div>
@@ -64,6 +64,43 @@ export default function produk() {
               <div className='card bg-indigo-50 border-indigo-500 h-auto relative transition-all duration-200'>
                 <PaketA className='mx-auto block my-4 fill-indigo-500'></PaketA>
                 <h4 className='text-center font-light text-lg'>Paket A</h4>
+                <h2 className='text-center font-bold text-xl py-4'>
+                  Rp 400 rb{" "}
+                  <span className='text-sm pl-2 font-light'>/bulan</span>
+                </h2>
+                <div>
+                  <div className='border-t-2 py-4'></div>
+                  <ul className='flex items-center py-2'>
+                    <Check></Check>
+                    <h2 className='text-medium ml-2'>
+                      Pelatihan 3 Hari Seminggu
+                    </h2>
+                  </ul>
+                  <ul className='flex items-center py-2'>
+                    <Check></Check>
+                    <h2 className='text-medium ml-2'>Pelatihan A</h2>
+                  </ul>
+                  <ul className='flex items-center py-2'>
+                    <Check></Check>
+                    <h2 className='text-medium ml-2'>Mentoring</h2>
+                  </ul>
+                  <ul className='flex items-center py-2'>
+                    <Check></Check>
+                    <h2 className='text-medium ml-2'>Sertifikat</h2>
+                  </ul>
+                  <div className='border-b-2 py-4'></div>
+                </div>
+                <div className='text-center items-center'>
+                  <p className='font-light italic my-4'>
+                    Cocok untuk siswa, mahasiswa ataupun pengusaha
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className='w-full md:w-2/6 px-4 py-4'>
+              <div className='card bg-green-50 border-green-500 h-auto relative transition-all duration-200'>
+                <PaketB className='mx-auto block my-4 fill-green-500'></PaketB>
+                <h4 className='text-center font-light text-lg'>Paket B</h4>
                 <h2 className='text-center font-bold text-xl py-4'>
                   Rp 600 rb{" "}
                   <span className='text-sm pl-2 font-light'>/bulan</span>
@@ -92,44 +129,7 @@ export default function produk() {
                 </div>
                 <div className='text-center items-center'>
                   <p className='font-light italic my-4'>
-                    Cocok untuk siswa SMK, Pelajar dan Pengusaha
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className='w-full md:w-2/6 px-4 py-4'>
-              <div className='card bg-green-50 border-green-500 h-auto relative transition-all duration-200'>
-                <PaketB className='mx-auto block my-4 fill-green-500'></PaketB>
-                <h4 className='text-center font-light text-lg'>Paket B</h4>
-                <h2 className='text-center font-bold text-xl py-4'>
-                  Rp 800 rb{" "}
-                  <span className='text-sm pl-2 font-light'>/bulan</span>
-                </h2>
-                <div>
-                  <div className='border-t-2 py-4'></div>
-                  <ul className='flex items-center py-2'>
-                    <Check></Check>
-                    <h2 className='text-medium ml-2'>
-                      Pelatihan 3 Hari Seminggu
-                    </h2>
-                  </ul>
-                  <ul className='flex items-center py-2'>
-                    <Check></Check>
-                    <h2 className='text-medium ml-2'>Pelatihan B</h2>
-                  </ul>
-                  <ul className='flex items-center py-2'>
-                    <Check></Check>
-                    <h2 className='text-medium ml-2'>Mentoring</h2>
-                  </ul>
-                  <ul className='flex items-center py-2'>
-                    <Check></Check>
-                    <h2 className='text-medium ml-2'>Sertifikat</h2>
-                  </ul>
-                  <div className='border-b-2 py-4'></div>
-                </div>
-                <div className='text-center items-center'>
-                  <p className='font-light italic my-4'>
-                    Cocok untuk siswa SMK, Pelajar dan Pengusaha
+                    Cocok untuk siswa, mahasiswa ataupun pengusaha
                   </p>
                 </div>
               </div>
@@ -139,7 +139,7 @@ export default function produk() {
                 <PaketC className='mx-auto block my-4 fill-purple-500'></PaketC>
                 <h4 className='text-center font-light text-lg'>Paket C</h4>
                 <h2 className='text-center font-bold text-xl py-4'>
-                  Rp 1 jt{" "}
+                  Rp 800 rb{" "}
                   <span className='text-sm pl-2 font-light'>/bulan</span>
                 </h2>
                 <div>
@@ -166,7 +166,7 @@ export default function produk() {
                 </div>
                 <div className='text-center items-center'>
                   <p className='font-light italic my-4'>
-                    Cocok untuk siswa SMK, Pelajar dan Pengusaha
+                    Cocok untuk siswa, mahasiswa ataupun pengusaha
                   </p>
                 </div>
               </div>
@@ -198,7 +198,7 @@ export default function produk() {
           </div>
           <div className='flex flex-wrap justify-center items-center mt-4'>
             <div className='w-full md:w-2/6 px-4 py-4'>
-              <div className='p-6 h-auto relative text-center transition-all duration-200'>
+              <div className='h-auto relative text-center transition-all duration-200'>
                 <img
                   src='/images/testimoni1.png'
                   alt='Testimoni'
@@ -208,7 +208,7 @@ export default function produk() {
                   Yusuf Tri Wibowo
                 </h4>
                 <h5 className='text-gray-500 font-light italic text-sm mt-2 mb-4'>
-                  Mahasiswa
+                  Siswa
                 </h5>
                 <p className='font-light'>
                   Pelatihan Dilakukan Oleh Mentor Profesioanal
@@ -216,7 +216,7 @@ export default function produk() {
               </div>
             </div>
             <div className='w-full md:w-2/6 px-4 py-4'>
-              <div className='p-6 h-auto relative text-center transition-all duration-200'>
+              <div className='h-auto relative text-center transition-all duration-200'>
                 <img
                   src='/images/testimoni2.png'
                   alt='Testimoni'
@@ -234,7 +234,7 @@ export default function produk() {
               </div>
             </div>
             <div className='w-full md:w-2/6 px-4 py-4'>
-              <div className='p-6 h-auto relative text-center transition-all duration-200'>
+              <div className='h-auto relative text-center transition-all duration-200'>
                 <img
                   src='/images/testimoni3.png'
                   alt='Testimoni'
@@ -244,7 +244,7 @@ export default function produk() {
                   David Bristi
                 </h4>
                 <h5 className='text-gray-500 font-light italic text-sm mt-2 mb-4'>
-                  Pengusaha
+                  Mahasiswa
                 </h5>
                 <p className='font-light'>
                   Penyampaian Materi dalam Pelatihan Dilaksanakan dengan Sangat

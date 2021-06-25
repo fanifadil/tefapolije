@@ -30,15 +30,15 @@ export default function produk({ dataBakery, dataCoffee }) {
             style={{ height: 700 }}>
             <div className='text-center'>
               <h3 className='text-lg font-light text-gray-300'>Produk</h3>
-              <h2 className='text-3xl md:text-5xl text-white font-semibold mt-4 px-4'>
-                Produk <span className='text-yellow-500'>Unggulan</span> TEFA
-                Bakery & Coffee
+              <h2 className='text-3xl md:text-5xl text-white font-semibold mt-4 px-4 leading-normal md:leading-relaxed'>
+                <span className='text-yellow-500'>Produk Unggulan</span> TEFA
+                Bakery Coffee & Fish Canning
               </h2>
               <p className='mx-4 md:mx-28 py-4 font-light font-white text-md md:text-lg text-white'>
-                TEFA Coffe and Bakery Politeknik Negeri Jember telah
-                menghasilkan beberapa produk berupa aneka roti, aneka kopi,
-                aneka kue dan kami juga menerima kue pesanan untuk ulang tahun,
-                acara keluarga dan lain lain
+                TEFA Bakery Coffee & Fish Canning Politeknik Negeri Jember telah
+                menghasilkan beberapa produk berupa aneka roti, aneka cookies,
+                aneka kopi kekinian, minuman sehat dan kami juga menerima kue
+                pesanan untuk ulang tahun, acara keluarga dan lain lain
                 <br />
               </p>
             </div>
@@ -79,7 +79,7 @@ export default function produk({ dataBakery, dataCoffee }) {
             </div>
             <div className='flex flex-wrap justify-center items-center mt-6'>
               <div className='w-full md:w-2/6 px-4 py-4'>
-                <div className='card h-auto md:h-72 relative text-center transition-all duration-200'>
+                <div className='card h-auto md:h-80 relative text-center transition-all duration-200'>
                   <img
                     className='mx-auto block py-2'
                     src='/images/maps.png'
@@ -87,8 +87,8 @@ export default function produk({ dataBakery, dataCoffee }) {
                   />
                   <h4 className='font-light text-2xl'>Lokasi</h4>
                   <p className='font-bold my-4'>
-                    Jl. Mastrip Kotak Pos 164 - Pintu Belakang POLIJE. Jember –
-                    Jawa Timur
+                    Jl. Tawang Mangu no 68 Sumbersari Jember, Dekat Pintu Masuk
+                    Polije.
                   </p>
                   <p className='text-gray-500 font-light italic'>
                     Buka Mulai 08.00 - 17.00 WIB
@@ -96,7 +96,7 @@ export default function produk({ dataBakery, dataCoffee }) {
                 </div>
               </div>
               <div className='w-full md:w-2/6 px-4 py-4'>
-                <div className='card h-72 relative text-center transition-all duration-200'>
+                <div className='card h-auto md:h-80 relative text-center transition-all duration-200'>
                   <img
                     className='mx-auto block py-2'
                     src='/images/gojek.png'
@@ -123,8 +123,8 @@ export default function produk({ dataBakery, dataCoffee }) {
                   Ingin belajar dan menghasilkan produk seperti di atas ?
                 </h2>
                 <p className='font-light py-6'>
-                  Ikuti pelatihan untuk mendapatkan pengalaman dan keahlian
-                  berwirausaha yang baik dan benar
+                  Ikuti pelatihan untuk mendapatkan pengalaman dan keahlian di
+                  bidang industri
                 </p>
                 <Link href='/pelatihan'>
                   <button className='bg-yellow-500 rounded-md hover:bg-yellow-400 transition-all duration-200 focus:outline-none shadow-inner text-white px-6 py-3'>

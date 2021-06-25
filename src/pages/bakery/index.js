@@ -37,8 +37,8 @@ export default function index({ dataBakery, dataCoffee }) {
                 </span>
               </h2>
               <p className='font-light mt-4 md:mt-8 px-4 font-white text-md md:text-lg text-white'>
-                Aneka Roti SIP POLIJE yang menjadi icon produk dari TEFA
-                Teaching Bakery & Coffee yang telah diolah dari bahan yang
+                Aneka Roti SIP POLIJE yang menjadi icon produk dari TEFA Bakery
+                Coffee and Fish Canning yang telah diolah dari bahan yang
                 berkualitas, dan menjadikan Roti SIP POLIJE sebagai produk
                 unggulan
               </p>

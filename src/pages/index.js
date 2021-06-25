@@ -31,7 +31,7 @@ export default function Home({ data }) {
                   <h3 className='text-lg font-light text-gray-300'>Home</h3>
                   <h1 className='text-3xl md:text-5xl text-white mb-5 font-bold leading-normal md:leading-relaxed'>
                     Teaching Factory
-                    <span className='text-yellow-500'> Bakery Coffe </span> &
+                    <span className='text-yellow-500'> Bakery Coffee </span> &
                     <span className='text-yellow-500'> Fish Canning</span>
                   </h1>
                   <p className='text-gray-100 font-light text-lg mb-8'>
@@ -101,8 +101,9 @@ export default function Home({ data }) {
               sarana menguatkan ketrampilan dan kompetensi lulusannya. PT vokasi
               mempunyai kekuatan atau keunggulan sebagai pembeda dibanding PT
               Akademik. <br />
-              Salah satu Tefa politeknik negeri jember yaitu tefa Bakery & Coffe
-              yang mengolah dan pengemasan terhadap produk pangan
+              Salah satu Tefa politeknik negeri jember yaitu Teaching Factory
+              Bakery Coffee & Fish Canning yang mengolah dan pengemasan terhadap
+              produk pangan
             </p>
           </div>
         </section>
