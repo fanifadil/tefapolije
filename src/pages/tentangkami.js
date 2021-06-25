@@ -60,6 +60,7 @@ export default function tentangkami({ data }) {
                     <div>
                       <figure>
                         <img
+                          className='w-full'
                           src={item?.img ?? ""}
                           alt='Galeri Teaching Factory Backery Coffee & Fish Chaining'
                         />
