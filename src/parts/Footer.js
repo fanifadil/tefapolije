@@ -13,7 +13,7 @@ export default function Footer() {
             </h6>
           </div>
           <p className='mt-4 text-white font-light'>
-            Jl. Mastrip Kotak Pos 164 <br />
+            Jl. Tawang Mangu no 68 <br />
             Jember – Jawa Timur – Indonesia <br />
             WA +6282333497811
           </p>
