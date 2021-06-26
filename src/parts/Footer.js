@@ -9,7 +9,7 @@ export default function Footer() {
           <div className='flex items-center'>
             <img src='/images/logo-tefa.png' alt='' />
             <h6 className='text-white font-bold text-xl md:text-2xl pl-4'>
-              TEFA Bakery & Coffe POLIJE
+              TEFA Bakery Coffee & Fish Canning
             </h6>
           </div>
           <p className='mt-4 text-white font-light'>
@@ -102,7 +102,7 @@ export default function Footer() {
       </div>
       <div className='border-t pt-8 mt-8 border-gray-200 border-opacity-20 text-center'>
         <p className='text-gray-300'>
-          2021 Copyright Teaching Factory Bakery & Coffe
+          2021 Copyright TEFA Bakery Coffee & Fish Canning
         </p>
       </div>
     </footer>

@@ -11,7 +11,7 @@ export default function index({ dataCoffee }) {
       <div className='flex justify-between items-center'>
         <div className='w-auto'>
           <h2 className='text-yellow-500 font-bold text-2xl md:text-3xl'>
-            Kopi Kekinian Minuman
+            Kopi Kekinian
           </h2>
         </div>
         {router.pathname === "/coffee" ? (

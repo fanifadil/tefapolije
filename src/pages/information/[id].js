@@ -8,7 +8,7 @@ function DetailInformasi({ data }) {
   return (
     <>
       <Head>
-        <title>TEFA Bakery & Coffe</title>
+        <title> TEFA Bakery Coffee and Fish Canning</title>
         <link rel='shortcut icon' href='/images/logo-tefa.png' />
       </Head>
       <main>
@@ -39,19 +39,7 @@ function DetailInformasi({ data }) {
             </figure>
 
             <p className='text-justify my-4 md:my-12'>
-              Direktur Jenderal Kelembagaan Kemenristekdikti Dr. Ir. Patdono
-              Suwignjo, M.Eng.Sc kemarin, berkesempatan melakukan kunjungan
-              kerja ke kampus Politeknik Negeri Jember (Polije) khususnya
-              melihat dari dekat perkembangan Pusat Unggulan Teknologi (PUT)
-              yang juga merupakan teaching factory (tefa). <br /> Tefa merupakan
-              keharusan bagi perguruan tinggi vokasi sebagai sarana menguatkan
-              ketrampilan dan kompetensi lulusannya. PT vokasi mempunyai
-              kekuatan atau keunggulan sebagai pembeda dibanding PT Akademik.{" "}
-              <br />
-              Demikian dipaparkan oleh Patdono Suwignjo ketika diwawancarai
-              media. “Pengembangan TEFA yang berstandar industry bagi PT vokasi
-              sangat amat penting dan strategis, untuk menghasilkan kompetensi
-              yang selaras dengan kebutuhan industry pula”, paparnya.
+              {data?.description ?? "Deskipsi Informasi"}
             </p>
           </div>
         </section>

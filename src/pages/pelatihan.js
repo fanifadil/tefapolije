@@ -15,7 +15,7 @@ export default function produk() {
   return (
     <>
       <Head>
-        <title>TEFA Bakery & Coffe</title>
+        <title>TEFA Bakery Coffee & Fish Canning</title>
         <link rel='shortcut icon' href='/images/logo-tefa.png' />
       </Head>
       <main>
@@ -41,8 +41,9 @@ export default function produk() {
                 TEFA Bakery Coffee and Fish Canning Politeknik Negeri Jember
                 saat ini membuka pelatihan kepada siswa magang atau kepada siapa
                 saja yang ingin belajar membuat suatu produk yang telah
-                dihasilkan oleh Tefa Bakery and Coffe saat ini. Pelaksanaan
-                pelatihan dilakukan oleh mentor yang profesional <br />
+                dihasilkan oleh TEFA Bakery Coffee & Fish Canning saat ini.
+                Pelaksanaan pelatihan dilakukan oleh mentor yang profesional{" "}
+                <br />
               </p>
             </div>
           </div>
@@ -193,7 +194,7 @@ export default function produk() {
             </h2>
             <p className='mx-4 md:mx-28 mt-4 font-light text-lg'>
               Beberapa client kami yang sudah melakukan pelatihan di TEFA Bakery
-              And Coffe Politeknik Negeri Jember
+              Coffee and Fish Canning Politeknik Negeri Jember
             </p>
           </div>
           <div className='flex flex-wrap justify-center items-center mt-4'>

@@ -18,7 +18,7 @@ export default function Home({ data }) {
   return (
     <>
       <Head>
-        <title>TEFA Bakery & Coffe</title>
+        <title>TEFA Bakery Coffee & Fish Canning</title>
         <link rel='shortcut icon' href='/images/logo-tefa.png' />
       </Head>
       <main>
