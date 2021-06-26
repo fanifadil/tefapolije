@@ -20,7 +20,7 @@ function DetailInformasi({ data }) {
         <section className='container mx-auto px-4 py-8 md:py-12'>
           <div className='justify-between flex md:px-36'>
             <h6 className='text-gray-700 font-light text-sm md:text-base'>
-              Home > Detail Informasi
+              Home {">"} Detail Informasi
             </h6>
             <h6 className='text-gray-700 font-light text-sm md:text-base'>
               {data?.date_created ?? "tanggal publish"}
@@ -38,9 +38,11 @@ function DetailInformasi({ data }) {
               />
             </figure>
 
-            <p className='text-justify my-4 md:my-12'>
-              {data?.description ?? "Deskipsi Informasi"}
-            </p>
+            <p
+              dangerouslySetInnerHTML={{
+                __html: data?.description ?? "Deskipsi Informasi",
+              }}
+              className='text-justify my-4 md:my-12'></p>
           </div>
         </section>
         <section className='mt-12 md:mt-24 px-4 bg-primary-color py-12'>
