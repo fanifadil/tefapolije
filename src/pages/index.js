@@ -101,9 +101,9 @@ export default function Home({ data }) {
               sarana menguatkan ketrampilan dan kompetensi lulusannya. PT vokasi
               mempunyai kekuatan atau keunggulan sebagai pembeda dibanding PT
               Akademik. <br />
-              Salah satu Tefa politeknik negeri jember yaitu Teaching Factory
-              Bakery Coffee & Fish Canning yang mengolah dan pengemasan terhadap
-              produk pangan
+              Salah satu TEFA Politeknik Negeri Jember yaitu Teaching Factory
+              Bakery Coffee & Fish Canning yang dioperasikan oleh Unit Produksi
+              Terpadu Pengolahan dan Pengemasan Produk Pangan
             </p>
           </div>
         </section>
