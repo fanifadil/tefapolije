@@ -62,7 +62,7 @@ export default function produk() {
           </div>
           <div className='flex flex-wrap justify-center items-center mt-4'>
             <div className='w-full md:w-2/6 px-4 py-4'>
-              <div className='card bg-indigo-50 border-indigo-500 h-auto relative transition-all duration-200'>
+              <div className='card hover:shadow-xl hover:bg-indigo-50 border-indigo-500 h-auto relative transition-all duration-200'>
                 <PaketA className='mx-auto block my-4 fill-indigo-500'></PaketA>
                 <h4 className='text-center font-light text-lg'>Paket A</h4>
                 <h2 className='text-center font-bold text-xl py-4'>
@@ -99,7 +99,7 @@ export default function produk() {
               </div>
             </div>
             <div className='w-full md:w-2/6 px-4 py-4'>
-              <div className='card bg-green-50 border-green-500 h-auto relative transition-all duration-200'>
+              <div className='card hover:shadow-xl hover:bg-green-50 border-green-500 h-auto relative transition-all duration-200'>
                 <PaketB className='mx-auto block my-4 fill-green-500'></PaketB>
                 <h4 className='text-center font-light text-lg'>Paket B</h4>
                 <h2 className='text-center font-bold text-xl py-4'>
@@ -136,7 +136,7 @@ export default function produk() {
               </div>
             </div>
             <div className='w-full md:w-2/6 px-4 py-4'>
-              <div className='card bg-purple-50 border-purple-500 h-auto relative transition-all duration-200'>
+              <div className='card hover:shadow-xl hover:bg-purple-50 border-purple-500 h-auto relative transition-all duration-200'>
                 <PaketC className='mx-auto block my-4 fill-purple-500'></PaketC>
                 <h4 className='text-center font-light text-lg'>Paket C</h4>
                 <h2 className='text-center font-bold text-xl py-4'>

@@ -5,7 +5,7 @@ export default function RenderItem({ item }) {
   return (
     <>
       <div className='w-full md:w-1/4 px-4 mb-6'>
-        <div className='card-information border-gray-300 pb-4 h-auto relative transition-all duration-200'>
+        <div className='card-information border-gray-300 hover:border-yellow-200 hover:shadow-xl pb-4 h-auto relative transition-all duration-200'>
           <div>
             <figure>
               <img src={item?.information_img ?? ""} alt={item?.name ?? ""} />

@@ -29,19 +29,24 @@ export default function index({ dataBakery, dataCoffee }) {
           <div
             className='container mx-auto absolute inset-0 z-0 w-full flex justify-start items-center'
             style={{ height: 400 }}>
-            <div className='w-full md:w-1/2'>
+            <div className='w-full md:w-1/2 mt-4'>
               <h2 className='text-2xl md:text-3xl text-white font-light mt-4 md:mt-8 px-4'>
                 Produk {"> "}
                 <span className='text-yellow-500 font-semibold'>
                   Produk Roti
                 </span>
               </h2>
-              <p className='font-light mt-4 md:mt-8 px-4 font-white text-md md:text-lg text-white'>
+              <p className='font-light mt-4 md:mt-8 px-4 mb-4 font-white text-md md:text-lg text-white'>
                 Aneka Roti SIP POLIJE yang menjadi icon produk dari TEFA Bakery
                 Coffee and Fish Canning yang telah diolah dari bahan yang
                 berkualitas, dan menjadikan Roti SIP POLIJE sebagai produk
                 unggulan
               </p>
+              <Link href='coffee'>
+                <a className='font-light mt-4 md:mt-8 px-4 font-white hover:underline text-md md:text-lg text-white'>
+                  {">"} Lihat Aneka Kopi
+                </a>
+              </Link>
             </div>
           </div>
           <div className='container relative mx-auto z-50'>
